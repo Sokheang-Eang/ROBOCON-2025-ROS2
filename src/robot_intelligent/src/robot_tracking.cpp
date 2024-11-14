@@ -12,10 +12,10 @@ public:
 
         // Initialize Subscriber and Publisher
         odom_robot_i_ = this->create_subscription<geometry_msgs::msg::Pose2D>(
-            "position_robot", 10, std::bind(&RobotTracking::pose_callback, this, std::placeholders::_1));
+            "position_robot/odom", 10, std::bind(&RobotTracking::pose_callback, this, std::placeholders::_1));
 
         odom_robot_ii_ = this->create_subscription<geometry_msgs::msg::Pose2D>(
-            "/odom/robot_ii", 10, std::bind(&RobotTracking::pose_callback_, this, std::placeholders::_1));
+            "position_robot/pos", 10, std::bind(&RobotTracking::pose_callback_, this, std::placeholders::_1));
 
         shooting_data_ = this->create_publisher<robot_base::msg::ProjectileMessage>("/shooting_data_", 10);
 
@@ -23,7 +23,7 @@ public:
 
         /*--------- const goal point need to change --------------*/
         goal_x = 3.00, goal_y = 9.6;
-        pos_x_ = 0.00; pos_y_ = 8.00;
+        pos_x_ = 0.00; pos_y_ = 0.00;
     }
 
 private:

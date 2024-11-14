@@ -18,11 +18,11 @@ public:
         // Publisher for odometry messages
         odom_pub_ = this->create_publisher<nav_msgs::msg::Odometry>("/odom/robot_ii", 10);
         // Read robot pose from sensor
-        odom_sub_ = this->create_subscription<geometry_msgs::msg::Pose2D>("/odom/pose_ii", 10, std::bind(&OdometryPublisher::pose_callback, this, std::placeholders::_1));
+        odom_sub_ = this->create_subscription<geometry_msgs::msg::Pose2D>("position_robot/pos", 10, std::bind(&OdometryPublisher::pose_callback, this, std::placeholders::_1));
         // Transform broadcaster
         tf_broadcaster_ = std::make_shared<tf2_ros::TransformBroadcaster>(this);
         // Timer for periodic publishing
-        timer_ = this->create_wall_timer(std::chrono::milliseconds(100), std::bind(&OdometryPublisher::publish, this));
+        timer_ = this->create_wall_timer(std::chrono::milliseconds(50), std::bind(&OdometryPublisher::publish, this));
         // Initialize variables
         last_x = 0.00, last_y = 0.00, last_theta = 0.00;
     }
