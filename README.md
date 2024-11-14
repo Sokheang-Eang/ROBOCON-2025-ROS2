@@ -25,3 +25,8 @@ ros2 run robot_intelligent robot_tracking
 ```
 ros2 run robot_intelligent shooting
 ```
+> [!TIP]
+> Call All Node
+```
+ros2 launch robot_command call_node_v1.launch.py 
+```
