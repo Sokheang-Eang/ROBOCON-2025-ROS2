@@ -1,0 +1,9 @@
+setup.py
+robot_base/__init__.py
+robot_base.egg-info/PKG-INFO
+robot_base.egg-info/SOURCES.txt
+robot_base.egg-info/dependency_links.txt
+robot_base.egg-info/top_level.txt
+robot_base/msg/__init__.py
+robot_base/msg/_position_message.py
+robot_base/msg/_projectile_message.py

@@ -1,0 +1,76 @@
+[0.156s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/npicbot/robocon_ws']
+[0.156s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/npicbot/robocon_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffbbd6f310>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0xffffbbd6dd20>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0xffffbbd6dd20>>, mixin_verb=('list',))
+[0.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.429s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/npicbot/robocon_ws'
+[0.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws) by extension 'ignore'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws) by extension 'ignore_ament_install'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws) by extensions ['colcon_pkg']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws) by extension 'colcon_pkg'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws) by extensions ['colcon_meta']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws) by extension 'colcon_meta'
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws) by extensions ['ros']
+[0.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws) by extension 'ros'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws) by extensions ['cmake', 'python']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws) by extension 'cmake'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws) by extension 'python'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws) by extensions ['python_setup_py']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws) by extension 'python_setup_py'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/build) by extension 'ignore'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/build) ignored
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/install) by extension 'ignore'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/install) ignored
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/log) by extension 'ignore'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/log) ignored
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src) by extension 'ignore'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src) by extension 'ignore_ament_install'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src) by extensions ['colcon_pkg']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src) by extension 'colcon_pkg'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src) by extensions ['colcon_meta']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src) by extension 'colcon_meta'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src) by extensions ['ros']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src) by extension 'ros'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src) by extensions ['cmake', 'python']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src) by extension 'cmake'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src) by extension 'python'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src) by extensions ['python_setup_py']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src) by extension 'python_setup_py'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src/robot_command) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src/robot_command) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src/robot_command) by extension 'ignore_ament_install'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src/robot_command) by extensions ['colcon_pkg']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src/robot_command) by extension 'colcon_pkg'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src/robot_command) by extensions ['colcon_meta']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src/robot_command) by extension 'colcon_meta'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src/robot_command) by extensions ['ros']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src/robot_command) by extension 'ros'
+[0.460s] DEBUG:colcon.colcon_core.package_identification:Package '/home/npicbot/robocon_ws/src/robot_command' with type 'ros.ament_cmake' and name 'robot_command'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src/robot_intelligent) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src/robot_intelligent) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src/robot_intelligent) by extension 'ignore_ament_install'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src/robot_intelligent) by extensions ['colcon_pkg']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src/robot_intelligent) by extension 'colcon_pkg'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src/robot_intelligent) by extensions ['colcon_meta']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src/robot_intelligent) by extension 'colcon_meta'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src/robot_intelligent) by extensions ['ros']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src/robot_intelligent) by extension 'ros'
+[0.463s] DEBUG:colcon.colcon_core.package_identification:Package '/home/npicbot/robocon_ws/src/robot_intelligent' with type 'ros.ament_cmake' and name 'robot_intelligent'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src/robot_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src/robot_localization) by extension 'ignore'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src/robot_localization) by extension 'ignore_ament_install'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src/robot_localization) by extensions ['colcon_pkg']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src/robot_localization) by extension 'colcon_pkg'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src/robot_localization) by extensions ['colcon_meta']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src/robot_localization) by extension 'colcon_meta'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src/robot_localization) by extensions ['ros']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(/home/npicbot/robocon_ws/src/robot_localization) by extension 'ros'
+[0.465s] DEBUG:colcon.colcon_core.package_identification:Package '/home/npicbot/robocon_ws/src/robot_localization' with type 'ros.ament_cmake' and name 'robot_localization'
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

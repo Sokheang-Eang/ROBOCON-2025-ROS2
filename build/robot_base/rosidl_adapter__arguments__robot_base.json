@@ -1,0 +1,7 @@
+{
+  "package_name": "robot_base",
+  "non_idl_tuples": [
+    "/home/npicbot/robocon_ws/src/robot_base:msg/PositionMessage.msg",
+    "/home/npicbot/robocon_ws/src/robot_base:msg/ProjectileMessage.msg"
+  ]
+}

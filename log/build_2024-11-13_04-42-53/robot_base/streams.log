@@ -1,0 +1,52 @@
+[0.032s] Invoking command in '/home/npicbot/robocon_ws/build/robot_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/npicbot/robocon_ws/build/robot_base -- -j12 -l12
+[0.064s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.268s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.271s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.274s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.326s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.793s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.144s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.584s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.628s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.665s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.665s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.666s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[1.680s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.693s] -- Added test 'lint_cmake' to check CMake code style
+[1.694s] -- Added test 'xmllint' to check XML markup files
+[1.697s] -- Configuring done
+[1.746s] -- Generating done
+[1.751s] -- Build files have been written to: /home/npicbot/robocon_ws/build/robot_base
+[1.794s] [35m[1mConsolidate compiler generated dependencies of target robot_base__rosidl_generator_c[0m
+[1.809s] [  2%] Built target robot_base__cpp
+[1.810s] [ 12%] Built target robot_base__rosidl_generator_c
+[1.824s] [ 12%] Built target ament_cmake_python_copy_robot_base
+[1.825s] [35m[1mConsolidate compiler generated dependencies of target robot_base__rosidl_typesupport_introspection_cpp[0m
+[1.825s] [35m[1mConsolidate compiler generated dependencies of target robot_base__rosidl_typesupport_fastrtps_c[0m
+[1.825s] [35m[1mConsolidate compiler generated dependencies of target robot_base__rosidl_typesupport_fastrtps_cpp[0m
+[1.825s] [35m[1mConsolidate compiler generated dependencies of target robot_base__rosidl_typesupport_cpp[0m
+[1.841s] [35m[1mConsolidate compiler generated dependencies of target robot_base__rosidl_typesupport_c[0m
+[1.842s] [35m[1mConsolidate compiler generated dependencies of target robot_base__rosidl_typesupport_introspection_c[0m
+[1.850s] [ 41%] Built target robot_base__rosidl_typesupport_cpp
+[1.850s] [ 41%] Built target robot_base__rosidl_typesupport_introspection_cpp
+[1.850s] [ 43%] Built target robot_base__rosidl_typesupport_fastrtps_cpp
+[1.855s] [ 53%] Built target robot_base__rosidl_typesupport_fastrtps_c
+[1.861s] [ 74%] Built target robot_base__rosidl_typesupport_c
+[1.861s] [ 74%] Built target robot_base__rosidl_typesupport_introspection_c
+[1.898s] [ 74%] Built target robot_base
+[1.931s] [ 76%] Built target robot_base__py
+[1.946s] [35m[1mConsolidate compiler generated dependencies of target robot_base__rosidl_generator_py[0m
+[1.968s] [ 84%] Built target robot_base__rosidl_generator_py
+[1.985s] [35m[1mConsolidate compiler generated dependencies of target robot_base__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.985s] [35m[1mConsolidate compiler generated dependencies of target robot_base__rosidl_typesupport_c__pyext[0m
+[1.986s] [35m[1mConsolidate compiler generated dependencies of target robot_base__rosidl_typesupport_introspection_c__pyext[0m
+[2.008s] [ 89%] Built target robot_base__rosidl_typesupport_c__pyext
+[2.013s] [ 94%] Built target robot_base__rosidl_typesupport_introspection_c__pyext
+[2.014s] [100%] Built target robot_base__rosidl_typesupport_fastrtps_c__pyext
+[2.228s] running egg_info
+[2.229s] writing robot_base.egg-info/PKG-INFO
+[2.230s] writing dependency_links to robot_base.egg-info/dependency_links.txt
+[2.230s] writing top-level names to robot_base.egg-info/top_level.txt
+[2.233s] reading manifest file 'robot_base.egg-info/SOURCES.txt'
+[2.235s] writing manifest file 'robot_base.egg-info/SOURCES.txt'
+[2.304s] [100%] Built target ament_cmake_python_build_robot_base_egg

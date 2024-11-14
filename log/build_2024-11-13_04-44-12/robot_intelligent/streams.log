@@ -1,0 +1,55 @@
+[0.033s] Invoking command in '/home/npicbot/robocon_ws/build/robot_intelligent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/npicbot/robocon_ws/src/robot_intelligent -DCMAKE_INSTALL_PREFIX=/home/npicbot/robocon_ws/install/robot_intelligent
+[0.049s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.275s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.319s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.323s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.332s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.345s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.362s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.409s] -- Found robot_base: 0.0.0 (/home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake)
+[0.420s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.453s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.454s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.595s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.650s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.778s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.779s] -- Configured cppcheck include dirs: 
+[0.779s] -- Configured cppcheck exclude dirs and/or files: 
+[0.780s] -- Added test 'lint_cmake' to check CMake code style
+[0.781s] -- Added test 'uncrustify' to check C / C++ code style
+[0.781s] -- Configured uncrustify additional arguments: 
+[0.782s] -- Added test 'xmllint' to check XML markup files
+[0.783s] -- Configuring done
+[0.809s] -- Generating done
+[0.811s] -- Build files have been written to: /home/npicbot/robocon_ws/build/robot_intelligent
+[0.849s] Invoked command in '/home/npicbot/robocon_ws/build/robot_intelligent' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/npicbot/robocon_ws/src/robot_intelligent -DCMAKE_INSTALL_PREFIX=/home/npicbot/robocon_ws/install/robot_intelligent
+[0.853s] Invoking command in '/home/npicbot/robocon_ws/build/robot_intelligent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/npicbot/robocon_ws/build/robot_intelligent -- -j12 -l12
+[0.938s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_tracking.dir/src/robot_tracking.cpp.o[0m
+[0.938s] [ 50%] [32mBuilding CXX object CMakeFiles/shooting.dir/src/projectile_motion.cpp.o[0m
+[14.827s] [ 75%] [32m[1mLinking CXX executable shooting[0m
+[15.466s] [ 75%] Built target shooting
+[20.727s] [100%] [32m[1mLinking CXX executable robot_tracking[0m
+[21.414s] [100%] Built target robot_tracking
+[21.439s] Invoked command in '/home/npicbot/robocon_ws/build/robot_intelligent' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/npicbot/robocon_ws/build/robot_intelligent -- -j12 -l12
+[21.493s] Invoking command in '/home/npicbot/robocon_ws/build/robot_intelligent': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/npicbot/robocon_ws/build/robot_intelligent
+[21.506s] -- Install configuration: ""
+[21.507s] -- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/lib/robot_intelligent/robot_tracking
+[21.515s] -- Set runtime path of "/home/npicbot/robocon_ws/install/robot_intelligent/lib/robot_intelligent/robot_tracking" to ""
+[21.515s] -- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/lib/robot_intelligent/shooting
+[21.522s] -- Set runtime path of "/home/npicbot/robocon_ws/install/robot_intelligent/lib/robot_intelligent/shooting" to ""
+[21.522s] -- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/share/ament_index/resource_index/package_run_dependencies/robot_intelligent
+[21.523s] -- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/share/ament_index/resource_index/parent_prefix_path/robot_intelligent
+[21.523s] -- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/environment/ament_prefix_path.sh
+[21.523s] -- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/environment/ament_prefix_path.dsv
+[21.524s] -- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/environment/path.sh
+[21.524s] -- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/environment/path.dsv
+[21.524s] -- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/local_setup.bash
+[21.525s] -- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/local_setup.sh
+[21.525s] -- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/local_setup.zsh
+[21.525s] -- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/local_setup.dsv
+[21.525s] -- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/package.dsv
+[21.526s] -- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/share/ament_index/resource_index/packages/robot_intelligent
+[21.526s] -- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/cmake/robot_intelligentConfig.cmake
+[21.526s] -- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/cmake/robot_intelligentConfig-version.cmake
+[21.526s] -- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/package.xml
+[21.530s] Invoked command in '/home/npicbot/robocon_ws/build/robot_intelligent' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/npicbot/robocon_ws/build/robot_intelligent

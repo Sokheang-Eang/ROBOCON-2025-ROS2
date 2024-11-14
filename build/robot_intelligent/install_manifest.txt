@@ -1,0 +1,17 @@
+/home/npicbot/robocon_ws/install/robot_intelligent/lib/robot_intelligent/robot_tracking
+/home/npicbot/robocon_ws/install/robot_intelligent/lib/robot_intelligent/shooting
+/home/npicbot/robocon_ws/install/robot_intelligent/share/ament_index/resource_index/package_run_dependencies/robot_intelligent
+/home/npicbot/robocon_ws/install/robot_intelligent/share/ament_index/resource_index/parent_prefix_path/robot_intelligent
+/home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/environment/ament_prefix_path.sh
+/home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/environment/ament_prefix_path.dsv
+/home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/environment/path.sh
+/home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/environment/path.dsv
+/home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/local_setup.bash
+/home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/local_setup.sh
+/home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/local_setup.zsh
+/home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/local_setup.dsv
+/home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/package.dsv
+/home/npicbot/robocon_ws/install/robot_intelligent/share/ament_index/resource_index/packages/robot_intelligent
+/home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/cmake/robot_intelligentConfig.cmake
+/home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/cmake/robot_intelligentConfig-version.cmake
+/home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/package.xml

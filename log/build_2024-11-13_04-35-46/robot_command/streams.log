@@ -1,0 +1,23 @@
+[0.027s] Invoking command in '/home/npicbot/robocon_ws/build/robot_command': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/npicbot/robocon_ws/src/robot_command -DCMAKE_INSTALL_PREFIX=/home/npicbot/robocon_ws/install/robot_command
+[0.200s] -- The C compiler identification is GNU 11.4.0
+[0.319s] -- The CXX compiler identification is GNU 11.4.0
+[0.339s] -- Detecting C compiler ABI info
+[0.449s] -- Detecting C compiler ABI info - done
+[0.458s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.458s] -- Detecting C compile features
+[0.459s] -- Detecting C compile features - done
+[0.464s] -- Detecting CXX compiler ABI info
+[0.580s] -- Detecting CXX compiler ABI info - done
+[0.591s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.591s] -- Detecting CXX compile features
+[0.592s] -- Detecting CXX compile features - done
+[0.602s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.896s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.075s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.240s] -- Added test 'lint_cmake' to check CMake code style
+[1.244s] -- Added test 'xmllint' to check XML markup files
+[1.250s] -- Configuring done
+[1.261s] -- Generating done
+[1.266s] -- Build files have been written to: /home/npicbot/robocon_ws/build/robot_command
+[1.280s] Invoked command in '/home/npicbot/robocon_ws/build/robot_command' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/npicbot/robocon_ws/src/robot_command -DCMAKE_INSTALL_PREFIX=/home/npicbot/robocon_ws/install/robot_command
+[1.284s] Invoking command in '/home/npicbot/robocon_ws/build/robot_command': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/npicbot/robocon_ws/build/robot_command -- -j12 -l12

@@ -1,0 +1,2 @@
+Invoking command in '/home/npicbot/robocon_ws/build/robot_intelligent': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/npicbot/robocon_ws/src/robot_intelligent -DCMAKE_INSTALL_PREFIX=/home/npicbot/robocon_ws/install/robot_intelligent
+Invoked command in '/home/npicbot/robocon_ws/build/robot_intelligent' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/npicbot/robocon_ws/src/robot_intelligent -DCMAKE_INSTALL_PREFIX=/home/npicbot/robocon_ws/install/robot_intelligent

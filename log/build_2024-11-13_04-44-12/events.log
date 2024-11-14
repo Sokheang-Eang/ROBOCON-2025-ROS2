@@ -1,0 +1,487 @@
+[0.000000] (-) TimerEvent: {}
+[0.000694] (robot_base) JobQueued: {'identifier': 'robot_base', 'dependencies': OrderedDict()}
+[0.000933] (robot_command) JobQueued: {'identifier': 'robot_command', 'dependencies': OrderedDict()}
+[0.001135] (robot_intelligent) JobQueued: {'identifier': 'robot_intelligent', 'dependencies': OrderedDict()}
+[0.001228] (robot_localization) JobQueued: {'identifier': 'robot_localization', 'dependencies': OrderedDict()}
+[0.001306] (robot_base) JobStarted: {'identifier': 'robot_base'}
+[0.009928] (robot_command) JobStarted: {'identifier': 'robot_command'}
+[0.024012] (robot_intelligent) JobStarted: {'identifier': 'robot_intelligent'}
+[0.030605] (robot_localization) JobStarted: {'identifier': 'robot_localization'}
+[0.039868] (robot_base) JobProgress: {'identifier': 'robot_base', 'progress': 'cmake'}
+[0.041259] (robot_base) JobProgress: {'identifier': 'robot_base', 'progress': 'build'}
+[0.042557] (robot_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/npicbot/robocon_ws/build/robot_base', '--', '-j12', '-l12'], 'cwd': '/home/npicbot/robocon_ws/build/robot_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'npicbot'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/npicbot/robocon_ws/install/robot_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/npicbot'), ('OLDPWD', '/home/npicbot'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('SYSTEMD_EXEC_PID', '2371'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/npicbot/robocon_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'npicbot'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1421524282909'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'npicbot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/npicbot:@/tmp/.ICE-unix/2347,unix/npicbot:/tmp/.ICE-unix/2347'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/651f04e9_ca31_407d_8c1f_b526e932eb5e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.383'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/npicbot/robocon_ws/install/robot_command:/home/npicbot/robocon_ws/install/robot_base:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/npicbot/robocon_ws/build/robot_base'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.1'), ('CMAKE_PREFIX_PATH', '/home/npicbot/robocon_ws/install/robot_command:/home/npicbot/robocon_ws/install/robot_base:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3701-0005')]), 'shell': False}
+[0.048302] (robot_command) JobProgress: {'identifier': 'robot_command', 'progress': 'cmake'}
+[0.049153] (robot_command) JobProgress: {'identifier': 'robot_command', 'progress': 'build'}
+[0.049576] (robot_command) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/npicbot/robocon_ws/build/robot_command', '--', '-j12', '-l12'], 'cwd': '/home/npicbot/robocon_ws/build/robot_command', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'npicbot'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/npicbot/robocon_ws/install/robot_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/npicbot'), ('OLDPWD', '/home/npicbot'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('SYSTEMD_EXEC_PID', '2371'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/npicbot/robocon_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'npicbot'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1421524282909'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'npicbot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/npicbot:@/tmp/.ICE-unix/2347,unix/npicbot:/tmp/.ICE-unix/2347'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/651f04e9_ca31_407d_8c1f_b526e932eb5e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.383'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/npicbot/robocon_ws/install/robot_command:/home/npicbot/robocon_ws/install/robot_base:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/npicbot/robocon_ws/build/robot_command'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.1'), ('CMAKE_PREFIX_PATH', '/home/npicbot/robocon_ws/install/robot_command:/home/npicbot/robocon_ws/install/robot_base:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3701-0005')]), 'shell': False}
+[0.053211] (robot_intelligent) JobProgress: {'identifier': 'robot_intelligent', 'progress': 'cmake'}
+[0.054096] (robot_intelligent) Command: {'cmd': ['/usr/bin/cmake', '/home/npicbot/robocon_ws/src/robot_intelligent', '-DCMAKE_INSTALL_PREFIX=/home/npicbot/robocon_ws/install/robot_intelligent'], 'cwd': '/home/npicbot/robocon_ws/build/robot_intelligent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'npicbot'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/npicbot/robocon_ws/install/robot_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/npicbot'), ('OLDPWD', '/home/npicbot'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('SYSTEMD_EXEC_PID', '2371'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/npicbot/robocon_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'npicbot'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1421524282909'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'npicbot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/npicbot:@/tmp/.ICE-unix/2347,unix/npicbot:/tmp/.ICE-unix/2347'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/651f04e9_ca31_407d_8c1f_b526e932eb5e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.383'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/npicbot/robocon_ws/install/robot_command:/home/npicbot/robocon_ws/install/robot_base:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/npicbot/robocon_ws/build/robot_intelligent'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.1'), ('CMAKE_PREFIX_PATH', '/home/npicbot/robocon_ws/install/robot_command:/home/npicbot/robocon_ws/install/robot_base:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3701-0005')]), 'shell': False}
+[0.061995] (robot_localization) JobProgress: {'identifier': 'robot_localization', 'progress': 'cmake'}
+[0.065115] (robot_localization) JobProgress: {'identifier': 'robot_localization', 'progress': 'build'}
+[0.065999] (robot_localization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/npicbot/robocon_ws/build/robot_localization', '--', '-j12', '-l12'], 'cwd': '/home/npicbot/robocon_ws/build/robot_localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'npicbot'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/npicbot/robocon_ws/install/robot_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/npicbot'), ('OLDPWD', '/home/npicbot'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('SYSTEMD_EXEC_PID', '2371'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/npicbot/robocon_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'npicbot'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1421524282909'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'npicbot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/npicbot:@/tmp/.ICE-unix/2347,unix/npicbot:/tmp/.ICE-unix/2347'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/651f04e9_ca31_407d_8c1f_b526e932eb5e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.383'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/npicbot/robocon_ws/install/robot_command:/home/npicbot/robocon_ws/install/robot_base:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/npicbot/robocon_ws/build/robot_localization'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.1'), ('CMAKE_PREFIX_PATH', '/home/npicbot/robocon_ws/install/robot_command:/home/npicbot/robocon_ws/install/robot_base:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3701-0005')]), 'shell': False}
+[0.073289] (robot_intelligent) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099131] (-) TimerEvent: {}
+[0.107611] (robot_command) CommandEnded: {'returncode': 0}
+[0.120476] (robot_base) StdoutLine: {'line': b'[  2%] Built target robot_base__cpp\n'}
+[0.121186] (robot_base) StdoutLine: {'line': b'[ 12%] Built target robot_base__rosidl_generator_c\n'}
+[0.125928] (robot_localization) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target odometry_robot_ii\x1b[0m\n'}
+[0.126439] (robot_localization) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target odometry_robot_i\x1b[0m\n'}
+[0.136434] (robot_base) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_robot_base\n'}
+[0.145518] (robot_command) JobProgress: {'identifier': 'robot_command', 'progress': 'install'}
+[0.154003] (robot_base) StdoutLine: {'line': b'[ 30%] Built target robot_base__rosidl_typesupport_cpp\n'}
+[0.154793] (robot_base) StdoutLine: {'line': b'[ 33%] Built target robot_base__rosidl_typesupport_c\n'}
+[0.157178] (robot_base) StdoutLine: {'line': b'[ 46%] Built target robot_base__rosidl_typesupport_fastrtps_cpp\n'}
+[0.157575] (robot_base) StdoutLine: {'line': b'[ 53%] Built target robot_base__rosidl_typesupport_introspection_c\n'}
+[0.157802] (robot_base) StdoutLine: {'line': b'[ 64%] Built target robot_base__rosidl_typesupport_introspection_cpp\n'}
+[0.160101] (robot_command) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/npicbot/robocon_ws/build/robot_command'], 'cwd': '/home/npicbot/robocon_ws/build/robot_command', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'npicbot'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/npicbot/robocon_ws/install/robot_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/npicbot'), ('OLDPWD', '/home/npicbot'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('SYSTEMD_EXEC_PID', '2371'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/npicbot/robocon_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'npicbot'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1421524282909'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'npicbot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/npicbot:@/tmp/.ICE-unix/2347,unix/npicbot:/tmp/.ICE-unix/2347'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/651f04e9_ca31_407d_8c1f_b526e932eb5e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.383'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/npicbot/robocon_ws/install/robot_command:/home/npicbot/robocon_ws/install/robot_base:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/npicbot/robocon_ws/build/robot_command'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.1'), ('CMAKE_PREFIX_PATH', '/home/npicbot/robocon_ws/install/robot_command:/home/npicbot/robocon_ws/install/robot_base:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3701-0005')]), 'shell': False}
+[0.162796] (robot_localization) StdoutLine: {'line': b'[ 50%] Built target odometry_robot_i\n'}
+[0.163677] (robot_base) StdoutLine: {'line': b'[ 74%] Built target robot_base__rosidl_typesupport_fastrtps_c\n'}
+[0.167950] (robot_localization) StdoutLine: {'line': b'[100%] Built target odometry_robot_ii\n'}
+[0.174494] (robot_command) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.175006] (robot_command) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_command/share/ament_index/resource_index/package_run_dependencies/robot_command\n'}
+[0.175242] (robot_command) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_command/share/ament_index/resource_index/parent_prefix_path/robot_command\n'}
+[0.175418] (robot_command) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_command/share/robot_command/environment/ament_prefix_path.sh\n'}
+[0.175526] (robot_command) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_command/share/robot_command/environment/ament_prefix_path.dsv\n'}
+[0.175627] (robot_command) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_command/share/robot_command/environment/path.sh\n'}
+[0.175724] (robot_command) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_command/share/robot_command/environment/path.dsv\n'}
+[0.175853] (robot_command) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_command/share/robot_command/local_setup.bash\n'}
+[0.176034] (robot_command) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_command/share/robot_command/local_setup.sh\n'}
+[0.176133] (robot_command) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_command/share/robot_command/local_setup.zsh\n'}
+[0.176227] (robot_command) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_command/share/robot_command/local_setup.dsv\n'}
+[0.176317] (robot_command) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_command/share/robot_command/package.dsv\n'}
+[0.176437] (robot_command) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_command/share/ament_index/resource_index/packages/robot_command\n'}
+[0.176529] (robot_command) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_command/share/robot_command/cmake/robot_commandConfig.cmake\n'}
+[0.176617] (robot_command) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_command/share/robot_command/cmake/robot_commandConfig-version.cmake\n'}
+[0.176709] (robot_command) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_command/share/robot_command/package.xml\n'}
+[0.180372] (robot_command) CommandEnded: {'returncode': 0}
+[0.194618] (robot_base) StdoutLine: {'line': b'[ 74%] Built target robot_base\n'}
+[0.199242] (-) TimerEvent: {}
+[0.210724] (robot_localization) CommandEnded: {'returncode': 0}
+[0.226223] (robot_base) StdoutLine: {'line': b'[ 76%] Built target robot_base__py\n'}
+[0.252849] (robot_command) JobEnded: {'identifier': 'robot_command', 'rc': 0}
+[0.254934] (robot_localization) JobProgress: {'identifier': 'robot_localization', 'progress': 'install'}
+[0.255428] (robot_localization) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/npicbot/robocon_ws/build/robot_localization'], 'cwd': '/home/npicbot/robocon_ws/build/robot_localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'npicbot'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/npicbot/robocon_ws/install/robot_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/npicbot'), ('OLDPWD', '/home/npicbot'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('SYSTEMD_EXEC_PID', '2371'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/npicbot/robocon_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'npicbot'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1421524282909'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'npicbot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/npicbot:@/tmp/.ICE-unix/2347,unix/npicbot:/tmp/.ICE-unix/2347'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/651f04e9_ca31_407d_8c1f_b526e932eb5e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.383'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/npicbot/robocon_ws/install/robot_command:/home/npicbot/robocon_ws/install/robot_base:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/npicbot/robocon_ws/build/robot_localization'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.1'), ('CMAKE_PREFIX_PATH', '/home/npicbot/robocon_ws/install/robot_command:/home/npicbot/robocon_ws/install/robot_base:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3701-0005')]), 'shell': False}
+[0.262886] (robot_base) StdoutLine: {'line': b'[ 84%] Built target robot_base__rosidl_generator_py\n'}
+[0.270576] (robot_localization) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.271038] (robot_localization) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_localization/lib/robot_localization/odometry_robot_i\n'}
+[0.279491] (robot_localization) StdoutLine: {'line': b'-- Set runtime path of "/home/npicbot/robocon_ws/install/robot_localization/lib/robot_localization/odometry_robot_i" to ""\n'}
+[0.279885] (robot_localization) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_localization/lib/robot_localization/odometry_robot_ii\n'}
+[0.286625] (robot_localization) StdoutLine: {'line': b'-- Set runtime path of "/home/npicbot/robocon_ws/install/robot_localization/lib/robot_localization/odometry_robot_ii" to ""\n'}
+[0.287054] (robot_localization) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_localization/share/ament_index/resource_index/package_run_dependencies/robot_localization\n'}
+[0.287216] (robot_localization) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_localization/share/ament_index/resource_index/parent_prefix_path/robot_localization\n'}
+[0.287426] (robot_localization) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/environment/ament_prefix_path.sh\n'}
+[0.287608] (robot_localization) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/environment/ament_prefix_path.dsv\n'}
+[0.287791] (robot_localization) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/environment/path.sh\n'}
+[0.288042] (robot_localization) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/environment/path.dsv\n'}
+[0.289357] (robot_localization) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/local_setup.bash\n'}
+[0.289780] (robot_localization) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/local_setup.sh\n'}
+[0.289957] (robot_localization) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/local_setup.zsh\n'}
+[0.290065] (robot_localization) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/local_setup.dsv\n'}
+[0.290165] (robot_localization) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/package.dsv\n'}
+[0.290259] (robot_localization) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_localization/share/ament_index/resource_index/packages/robot_localization\n'}
+[0.290376] (robot_localization) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/cmake/robot_localizationConfig.cmake\n'}
+[0.290486] (robot_localization) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/cmake/robot_localizationConfig-version.cmake\n'}
+[0.291112] (robot_localization) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/package.xml\n'}
+[0.294173] (robot_localization) CommandEnded: {'returncode': 0}
+[0.298247] (robot_intelligent) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.299217] (robot_base) StdoutLine: {'line': b'[ 89%] Built target robot_base__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.299580] (-) TimerEvent: {}
+[0.300270] (robot_base) StdoutLine: {'line': b'[ 94%] Built target robot_base__rosidl_typesupport_introspection_c__pyext\n'}
+[0.305719] (robot_base) StdoutLine: {'line': b'[100%] Built target robot_base__rosidl_typesupport_c__pyext\n'}
+[0.342950] (robot_intelligent) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.347228] (robot_intelligent) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.355276] (robot_intelligent) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.361224] (robot_localization) JobEnded: {'identifier': 'robot_localization', 'rc': 0}
+[0.369126] (robot_intelligent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.386407] (robot_intelligent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.399691] (-) TimerEvent: {}
+[0.433178] (robot_intelligent) StdoutLine: {'line': b'-- Found robot_base: 0.0.0 (/home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake)\n'}
+[0.444310] (robot_intelligent) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.476676] (robot_intelligent) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.478490] (robot_intelligent) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.499797] (-) TimerEvent: {}
+[0.520207] (robot_base) StdoutLine: {'line': b'running egg_info\n'}
+[0.521289] (robot_base) StdoutLine: {'line': b'writing robot_base.egg-info/PKG-INFO\n'}
+[0.521787] (robot_base) StdoutLine: {'line': b'writing dependency_links to robot_base.egg-info/dependency_links.txt\n'}
+[0.522077] (robot_base) StdoutLine: {'line': b'writing top-level names to robot_base.egg-info/top_level.txt\n'}
+[0.525345] (robot_base) StdoutLine: {'line': b"reading manifest file 'robot_base.egg-info/SOURCES.txt'\n"}
+[0.526240] (robot_base) StdoutLine: {'line': b"writing manifest file 'robot_base.egg-info/SOURCES.txt'\n"}
+[0.587599] (robot_base) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_robot_base_egg\n'}
+[0.600022] (-) TimerEvent: {}
+[0.610284] (robot_base) CommandEnded: {'returncode': 0}
+[0.619376] (robot_intelligent) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.673845] (robot_intelligent) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.700354] (-) TimerEvent: {}
+[0.740852] (robot_base) JobProgress: {'identifier': 'robot_base', 'progress': 'install'}
+[0.741619] (robot_base) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/npicbot/robocon_ws/build/robot_base'], 'cwd': '/home/npicbot/robocon_ws/build/robot_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'npicbot'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/npicbot/robocon_ws/install/robot_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/npicbot'), ('OLDPWD', '/home/npicbot'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('SYSTEMD_EXEC_PID', '2371'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/npicbot/robocon_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'npicbot'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1421524282909'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'npicbot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/npicbot:@/tmp/.ICE-unix/2347,unix/npicbot:/tmp/.ICE-unix/2347'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/651f04e9_ca31_407d_8c1f_b526e932eb5e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.383'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/npicbot/robocon_ws/install/robot_command:/home/npicbot/robocon_ws/install/robot_base:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/npicbot/robocon_ws/build/robot_base'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.1'), ('CMAKE_PREFIX_PATH', '/home/npicbot/robocon_ws/install/robot_command:/home/npicbot/robocon_ws/install/robot_base:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3701-0005')]), 'shell': False}
+[0.757876] (robot_base) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.758558] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/ament_index/resource_index/rosidl_interfaces/robot_base\n'}
+[0.758884] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base\n'}
+[0.759079] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg\n'}
+[0.759252] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail\n'}
+[0.759411] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__type_support.h\n'}
+[0.759720] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__functions.h\n'}
+[0.759961] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__functions.c\n'}
+[0.760157] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__functions.h\n'}
+[0.760314] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__functions.c\n'}
+[0.760572] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__struct.h\n'}
+[0.760826] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__struct.h\n'}
+[0.761020] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__type_support.h\n'}
+[0.761178] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.761370] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/projectile_message.h\n'}
+[0.761554] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/position_message.h\n'}
+[0.761836] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/environment/library_path.sh\n'}
+[0.762123] (robot_base) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/environment/library_path.dsv\n'}
+[0.762400] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_generator_c.so\n'}
+[0.762583] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base\n'}
+[0.762767] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg\n'}
+[0.762996] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail\n'}
+[0.763225] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__rosidl_typesupport_fastrtps_c.h\n'}
+[0.763403] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__rosidl_typesupport_fastrtps_c.h\n'}
+[0.763554] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.763693] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_typesupport_fastrtps_c.so\n'}
+[0.763888] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base\n'}
+[0.764099] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg\n'}
+[0.764253] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail\n'}
+[0.764431] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__type_support.c\n'}
+[0.764612] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__rosidl_typesupport_introspection_c.h\n'}
+[0.764798] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__rosidl_typesupport_introspection_c.h\n'}
+[0.764980] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__type_support.c\n'}
+[0.765163] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.765306] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_typesupport_introspection_c.so\n'}
+[0.765542] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_typesupport_c.so\n'}
+[0.765824] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base\n'}
+[0.766002] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg\n'}
+[0.766197] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail\n'}
+[0.766351] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__builder.hpp\n'}
+[0.766492] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__traits.hpp\n'}
+[0.766623] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__traits.hpp\n'}
+[0.766753] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__struct.hpp\n'}
+[0.766908] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__struct.hpp\n'}
+[0.767038] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__builder.hpp\n'}
+[0.767174] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/projectile_message.hpp\n'}
+[0.767302] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/position_message.hpp\n'}
+[0.767429] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base\n'}
+[0.767554] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg\n'}
+[0.767679] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail\n'}
+[0.767822] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.767954] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.768081] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/dds_fastrtps\n'}
+[0.768209] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.768337] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.768463] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base\n'}
+[0.768589] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg\n'}
+[0.768717] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail\n'}
+[0.768843] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.768972] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__type_support.cpp\n'}
+[0.769139] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.769273] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__type_support.cpp\n'}
+[0.769403] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_typesupport_introspection_cpp.so\n'}
+[0.769531] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_typesupport_cpp.so\n'}
+[0.769659] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/environment/pythonpath.sh\n'}
+[0.769785] (robot_base) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/environment/pythonpath.dsv\n'}
+[0.769911] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base-0.0.0-py3.10.egg-info\n'}
+[0.770060] (robot_base) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.770188] (robot_base) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.770330] (robot_base) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.770461] (robot_base) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.770581] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base\n'}
+[0.770700] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/msg\n'}
+[0.770819] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/msg/_position_message_s.c\n'}
+[0.770941] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/msg/_position_message.py\n'}
+[0.771064] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/msg/_projectile_message.py\n'}
+[0.771183] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/msg/__init__.py\n'}
+[0.771302] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/msg/_projectile_message_s.c\n'}
+[0.771422] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/_robot_base_s.ep.rosidl_typesupport_c.c\n'}
+[0.771543] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/_robot_base_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.771679] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/librobot_base__rosidl_generator_py.so\n'}
+[0.771807] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/_robot_base_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.771931] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/robot_base_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.772055] (robot_base) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/__init__.py\n'}
+[0.772175] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/robot_base_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.772297] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/robot_base_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.800431] (-) TimerEvent: {}
+[0.802527] (robot_intelligent) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.802836] (robot_intelligent) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.803005] (robot_intelligent) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.803772] (robot_intelligent) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.805060] (robot_intelligent) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.805254] (robot_intelligent) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.805788] (robot_intelligent) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.807691] (robot_intelligent) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.815985] (robot_base) StdoutLine: {'line': b"Listing '/home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base'...\n"}
+[0.816269] (robot_base) StdoutLine: {'line': b"Compiling '/home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/__init__.py'...\n"}
+[0.816438] (robot_base) StdoutLine: {'line': b"Listing '/home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/msg'...\n"}
+[0.825255] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/robot_base_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.825695] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/robot_base_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.826152] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/robot_base_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.826626] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_generator_py.so\n'}
+[0.826932] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/msg/PositionMessage.idl\n'}
+[0.827221] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/msg/ProjectileMessage.idl\n'}
+[0.827480] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/msg/PositionMessage.msg\n'}
+[0.827661] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/msg/ProjectileMessage.msg\n'}
+[0.827885] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/ament_index/resource_index/package_run_dependencies/robot_base\n'}
+[0.828104] (robot_base) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/ament_index/resource_index/parent_prefix_path/robot_base\n'}
+[0.828353] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/environment/ament_prefix_path.sh\n'}
+[0.828530] (robot_base) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/environment/ament_prefix_path.dsv\n'}
+[0.828806] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/environment/path.sh\n'}
+[0.829024] (robot_base) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/environment/path.dsv\n'}
+[0.829195] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/local_setup.bash\n'}
+[0.829409] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/local_setup.sh\n'}
+[0.829623] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/local_setup.zsh\n'}
+[0.829860] (robot_base) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/local_setup.dsv\n'}
+[0.830099] (robot_base) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/package.dsv\n'}
+[0.830384] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/ament_index/resource_index/packages/robot_base\n'}
+[0.830626] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/export_robot_base__rosidl_generator_cExport.cmake\n'}
+[0.830840] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/export_robot_base__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.831107] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/export_robot_base__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.831441] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/export_robot_base__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.831643] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/robot_base__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.831878] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/robot_base__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.832130] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/robot_base__rosidl_typesupport_cExport.cmake\n'}
+[0.832359] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/robot_base__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.832578] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/export_robot_base__rosidl_generator_cppExport.cmake\n'}
+[0.832743] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/export_robot_base__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.832904] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/export_robot_base__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.833063] (robot_intelligent) StdoutLine: {'line': b'-- Generating done\n'}
+[0.833243] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/robot_base__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.833399] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/robot_base__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.833554] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/robot_base__rosidl_typesupport_cppExport.cmake\n'}
+[0.833760] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/robot_base__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.833981] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/export_robot_base__rosidl_generator_pyExport.cmake\n'}
+[0.834082] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/export_robot_base__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.834175] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/rosidl_cmake-extras.cmake\n'}
+[0.834262] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.834368] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.834474] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.834562] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.834647] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.834736] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.834824] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/robot_baseConfig.cmake\n'}
+[0.834910] (robot_base) StdoutLine: {'line': b'-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/robot_baseConfig-version.cmake\n'}
+[0.834994] (robot_base) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/package.xml\n'}
+[0.835080] (robot_intelligent) StdoutLine: {'line': b'-- Build files have been written to: /home/npicbot/robocon_ws/build/robot_intelligent\n'}
+[0.837266] (robot_base) CommandEnded: {'returncode': 0}
+[0.872937] (robot_intelligent) CommandEnded: {'returncode': 0}
+[0.874618] (robot_intelligent) JobProgress: {'identifier': 'robot_intelligent', 'progress': 'build'}
+[0.875329] (robot_intelligent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/npicbot/robocon_ws/build/robot_intelligent', '--', '-j12', '-l12'], 'cwd': '/home/npicbot/robocon_ws/build/robot_intelligent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'npicbot'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/npicbot/robocon_ws/install/robot_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/npicbot'), ('OLDPWD', '/home/npicbot'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('SYSTEMD_EXEC_PID', '2371'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/npicbot/robocon_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'npicbot'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1421524282909'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'npicbot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/npicbot:@/tmp/.ICE-unix/2347,unix/npicbot:/tmp/.ICE-unix/2347'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/651f04e9_ca31_407d_8c1f_b526e932eb5e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.383'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/npicbot/robocon_ws/install/robot_command:/home/npicbot/robocon_ws/install/robot_base:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/npicbot/robocon_ws/build/robot_intelligent'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.1'), ('CMAKE_PREFIX_PATH', '/home/npicbot/robocon_ws/install/robot_command:/home/npicbot/robocon_ws/install/robot_base:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3701-0005')]), 'shell': False}
+[0.900616] (-) TimerEvent: {}
+[0.961515] (robot_intelligent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/robot_tracking.dir/src/robot_tracking.cpp.o\x1b[0m\n'}
+[0.962050] (robot_intelligent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/shooting.dir/src/projectile_motion.cpp.o\x1b[0m\n'}
+[1.001003] (-) TimerEvent: {}
+[1.010116] (robot_base) JobEnded: {'identifier': 'robot_base', 'rc': 0}
+[1.101173] (-) TimerEvent: {}
+[1.201767] (-) TimerEvent: {}
+[1.302385] (-) TimerEvent: {}
+[1.402992] (-) TimerEvent: {}
+[1.503619] (-) TimerEvent: {}
+[1.604253] (-) TimerEvent: {}
+[1.704875] (-) TimerEvent: {}
+[1.805506] (-) TimerEvent: {}
+[1.906123] (-) TimerEvent: {}
+[2.006772] (-) TimerEvent: {}
+[2.107399] (-) TimerEvent: {}
+[2.208039] (-) TimerEvent: {}
+[2.308660] (-) TimerEvent: {}
+[2.409281] (-) TimerEvent: {}
+[2.509918] (-) TimerEvent: {}
+[2.610576] (-) TimerEvent: {}
+[2.711224] (-) TimerEvent: {}
+[2.811873] (-) TimerEvent: {}
+[2.912500] (-) TimerEvent: {}
+[3.013133] (-) TimerEvent: {}
+[3.113812] (-) TimerEvent: {}
+[3.214488] (-) TimerEvent: {}
+[3.315131] (-) TimerEvent: {}
+[3.415767] (-) TimerEvent: {}
+[3.516394] (-) TimerEvent: {}
+[3.617106] (-) TimerEvent: {}
+[3.717757] (-) TimerEvent: {}
+[3.818407] (-) TimerEvent: {}
+[3.919065] (-) TimerEvent: {}
+[4.019698] (-) TimerEvent: {}
+[4.120354] (-) TimerEvent: {}
+[4.220992] (-) TimerEvent: {}
+[4.321632] (-) TimerEvent: {}
+[4.422258] (-) TimerEvent: {}
+[4.522903] (-) TimerEvent: {}
+[4.623538] (-) TimerEvent: {}
+[4.724165] (-) TimerEvent: {}
+[4.824797] (-) TimerEvent: {}
+[4.925440] (-) TimerEvent: {}
+[5.026080] (-) TimerEvent: {}
+[5.126760] (-) TimerEvent: {}
+[5.227403] (-) TimerEvent: {}
+[5.328032] (-) TimerEvent: {}
+[5.428655] (-) TimerEvent: {}
+[5.529287] (-) TimerEvent: {}
+[5.629926] (-) TimerEvent: {}
+[5.730595] (-) TimerEvent: {}
+[5.831218] (-) TimerEvent: {}
+[5.931889] (-) TimerEvent: {}
+[6.032529] (-) TimerEvent: {}
+[6.133162] (-) TimerEvent: {}
+[6.233804] (-) TimerEvent: {}
+[6.334460] (-) TimerEvent: {}
+[6.435092] (-) TimerEvent: {}
+[6.535735] (-) TimerEvent: {}
+[6.636362] (-) TimerEvent: {}
+[6.737002] (-) TimerEvent: {}
+[6.837632] (-) TimerEvent: {}
+[6.938274] (-) TimerEvent: {}
+[7.038948] (-) TimerEvent: {}
+[7.139588] (-) TimerEvent: {}
+[7.240226] (-) TimerEvent: {}
+[7.340863] (-) TimerEvent: {}
+[7.441510] (-) TimerEvent: {}
+[7.542149] (-) TimerEvent: {}
+[7.642834] (-) TimerEvent: {}
+[7.743485] (-) TimerEvent: {}
+[7.844100] (-) TimerEvent: {}
+[7.944708] (-) TimerEvent: {}
+[8.045334] (-) TimerEvent: {}
+[8.145983] (-) TimerEvent: {}
+[8.246642] (-) TimerEvent: {}
+[8.347262] (-) TimerEvent: {}
+[8.447863] (-) TimerEvent: {}
+[8.548467] (-) TimerEvent: {}
+[8.649134] (-) TimerEvent: {}
+[8.749757] (-) TimerEvent: {}
+[8.850387] (-) TimerEvent: {}
+[8.951012] (-) TimerEvent: {}
+[9.051613] (-) TimerEvent: {}
+[9.152222] (-) TimerEvent: {}
+[9.252833] (-) TimerEvent: {}
+[9.353441] (-) TimerEvent: {}
+[9.454063] (-) TimerEvent: {}
+[9.554714] (-) TimerEvent: {}
+[9.655330] (-) TimerEvent: {}
+[9.755937] (-) TimerEvent: {}
+[9.856560] (-) TimerEvent: {}
+[9.957196] (-) TimerEvent: {}
+[10.057786] (-) TimerEvent: {}
+[10.158428] (-) TimerEvent: {}
+[10.259106] (-) TimerEvent: {}
+[10.359720] (-) TimerEvent: {}
+[10.460340] (-) TimerEvent: {}
+[10.560958] (-) TimerEvent: {}
+[10.661564] (-) TimerEvent: {}
+[10.762168] (-) TimerEvent: {}
+[10.862797] (-) TimerEvent: {}
+[10.963389] (-) TimerEvent: {}
+[11.063982] (-) TimerEvent: {}
+[11.164596] (-) TimerEvent: {}
+[11.265209] (-) TimerEvent: {}
+[11.365810] (-) TimerEvent: {}
+[11.466429] (-) TimerEvent: {}
+[11.567033] (-) TimerEvent: {}
+[11.667641] (-) TimerEvent: {}
+[11.768252] (-) TimerEvent: {}
+[11.868858] (-) TimerEvent: {}
+[11.969447] (-) TimerEvent: {}
+[12.070052] (-) TimerEvent: {}
+[12.170694] (-) TimerEvent: {}
+[12.271315] (-) TimerEvent: {}
+[12.371932] (-) TimerEvent: {}
+[12.472535] (-) TimerEvent: {}
+[12.573133] (-) TimerEvent: {}
+[12.673740] (-) TimerEvent: {}
+[12.774364] (-) TimerEvent: {}
+[12.874984] (-) TimerEvent: {}
+[12.975592] (-) TimerEvent: {}
+[13.076224] (-) TimerEvent: {}
+[13.176827] (-) TimerEvent: {}
+[13.277442] (-) TimerEvent: {}
+[13.378050] (-) TimerEvent: {}
+[13.478683] (-) TimerEvent: {}
+[13.579283] (-) TimerEvent: {}
+[13.679900] (-) TimerEvent: {}
+[13.780509] (-) TimerEvent: {}
+[13.881120] (-) TimerEvent: {}
+[13.981762] (-) TimerEvent: {}
+[14.082368] (-) TimerEvent: {}
+[14.182967] (-) TimerEvent: {}
+[14.283566] (-) TimerEvent: {}
+[14.384182] (-) TimerEvent: {}
+[14.484796] (-) TimerEvent: {}
+[14.585418] (-) TimerEvent: {}
+[14.686023] (-) TimerEvent: {}
+[14.786655] (-) TimerEvent: {}
+[14.851193] (robot_intelligent) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable shooting\x1b[0m\n'}
+[14.886836] (-) TimerEvent: {}
+[14.987533] (-) TimerEvent: {}
+[15.088529] (-) TimerEvent: {}
+[15.189166] (-) TimerEvent: {}
+[15.289792] (-) TimerEvent: {}
+[15.390418] (-) TimerEvent: {}
+[15.489461] (robot_intelligent) StdoutLine: {'line': b'[ 75%] Built target shooting\n'}
+[15.490511] (-) TimerEvent: {}
+[15.591184] (-) TimerEvent: {}
+[15.692125] (-) TimerEvent: {}
+[15.793306] (-) TimerEvent: {}
+[15.894486] (-) TimerEvent: {}
+[15.995604] (-) TimerEvent: {}
+[16.096755] (-) TimerEvent: {}
+[16.197951] (-) TimerEvent: {}
+[16.299183] (-) TimerEvent: {}
+[16.400342] (-) TimerEvent: {}
+[16.501445] (-) TimerEvent: {}
+[16.602564] (-) TimerEvent: {}
+[16.703705] (-) TimerEvent: {}
+[16.804853] (-) TimerEvent: {}
+[16.906029] (-) TimerEvent: {}
+[17.007229] (-) TimerEvent: {}
+[17.108379] (-) TimerEvent: {}
+[17.209569] (-) TimerEvent: {}
+[17.310719] (-) TimerEvent: {}
+[17.411878] (-) TimerEvent: {}
+[17.513006] (-) TimerEvent: {}
+[17.614180] (-) TimerEvent: {}
+[17.715334] (-) TimerEvent: {}
+[17.816452] (-) TimerEvent: {}
+[17.917604] (-) TimerEvent: {}
+[18.018774] (-) TimerEvent: {}
+[18.119929] (-) TimerEvent: {}
+[18.221060] (-) TimerEvent: {}
+[18.322527] (-) TimerEvent: {}
+[18.423677] (-) TimerEvent: {}
+[18.524842] (-) TimerEvent: {}
+[18.626063] (-) TimerEvent: {}
+[18.727370] (-) TimerEvent: {}
+[20.750878] (robot_intelligent) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable robot_tracking\x1b[0m\n'}
+[20.751560] (-) TimerEvent: {}
+[20.852220] (-) TimerEvent: {}
+[20.953018] (-) TimerEvent: {}
+[21.053825] (-) TimerEvent: {}
+[21.154654] (-) TimerEvent: {}
+[21.255706] (-) TimerEvent: {}
+[21.356552] (-) TimerEvent: {}
+[21.437853] (robot_intelligent) StdoutLine: {'line': b'[100%] Built target robot_tracking\n'}
+[21.456724] (-) TimerEvent: {}
+[21.462457] (robot_intelligent) CommandEnded: {'returncode': 0}
+[21.514375] (robot_intelligent) JobProgress: {'identifier': 'robot_intelligent', 'progress': 'install'}
+[21.515218] (robot_intelligent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/npicbot/robocon_ws/build/robot_intelligent'], 'cwd': '/home/npicbot/robocon_ws/build/robot_intelligent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'npicbot'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/npicbot/robocon_ws/install/robot_base/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/npicbot'), ('OLDPWD', '/home/npicbot'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.4.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson AGX Orin Developer Kit'), ('SYSTEMD_EXEC_PID', '2371'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/npicbot/robocon_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'npicbot'), ('JETSON_MODULE', 'NVIDIA Jetson AGX Orin (64GB ram)'), ('JETSON_SERIAL_NUMBER', '1421524282909'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'npicbot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/npicbot:@/tmp/.ICE-unix/2347,unix/npicbot:/tmp/.ICE-unix/2347'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/651f04e9_ca31_407d_8c1f_b526e932eb5e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.383'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/npicbot/robocon_ws/install/robot_command:/home/npicbot/robocon_ws/install/robot_base:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/npicbot/robocon_ws/build/robot_intelligent'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.1'), ('CMAKE_PREFIX_PATH', '/home/npicbot/robocon_ws/install/robot_command:/home/npicbot/robocon_ws/install/robot_base:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3701-0005')]), 'shell': False}
+[21.530442] (robot_intelligent) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.530799] (robot_intelligent) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/lib/robot_intelligent/robot_tracking\n'}
+[21.538642] (robot_intelligent) StdoutLine: {'line': b'-- Set runtime path of "/home/npicbot/robocon_ws/install/robot_intelligent/lib/robot_intelligent/robot_tracking" to ""\n'}
+[21.539176] (robot_intelligent) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/lib/robot_intelligent/shooting\n'}
+[21.545732] (robot_intelligent) StdoutLine: {'line': b'-- Set runtime path of "/home/npicbot/robocon_ws/install/robot_intelligent/lib/robot_intelligent/shooting" to ""\n'}
+[21.546096] (robot_intelligent) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/share/ament_index/resource_index/package_run_dependencies/robot_intelligent\n'}
+[21.546954] (robot_intelligent) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/share/ament_index/resource_index/parent_prefix_path/robot_intelligent\n'}
+[21.547347] (robot_intelligent) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/environment/ament_prefix_path.sh\n'}
+[21.547612] (robot_intelligent) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/environment/ament_prefix_path.dsv\n'}
+[21.547890] (robot_intelligent) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/environment/path.sh\n'}
+[21.548188] (robot_intelligent) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/environment/path.dsv\n'}
+[21.548459] (robot_intelligent) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/local_setup.bash\n'}
+[21.548731] (robot_intelligent) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/local_setup.sh\n'}
+[21.548996] (robot_intelligent) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/local_setup.zsh\n'}
+[21.549264] (robot_intelligent) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/local_setup.dsv\n'}
+[21.549555] (robot_intelligent) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/package.dsv\n'}
+[21.549782] (robot_intelligent) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/share/ament_index/resource_index/packages/robot_intelligent\n'}
+[21.550038] (robot_intelligent) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/cmake/robot_intelligentConfig.cmake\n'}
+[21.550262] (robot_intelligent) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/cmake/robot_intelligentConfig-version.cmake\n'}
+[21.550562] (robot_intelligent) StdoutLine: {'line': b'-- Installing: /home/npicbot/robocon_ws/install/robot_intelligent/share/robot_intelligent/package.xml\n'}
+[21.552994] (robot_intelligent) CommandEnded: {'returncode': 0}
+[21.556816] (-) TimerEvent: {}
+[21.654924] (robot_intelligent) JobEnded: {'identifier': 'robot_intelligent', 'rc': 0}
+[21.658170] (-) TimerEvent: {}
+[21.658586] (-) EventReactorShutdown: {}

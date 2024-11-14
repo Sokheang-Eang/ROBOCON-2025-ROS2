@@ -1,0 +1,22 @@
+[  2%] Built target robot_base__cpp
+[ 12%] Built target robot_base__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_robot_base
+[ 23%] Built target robot_base__rosidl_typesupport_fastrtps_cpp
+[ 43%] Built target robot_base__rosidl_typesupport_introspection_cpp
+[ 43%] Built target robot_base__rosidl_typesupport_introspection_c
+[ 64%] Built target robot_base__rosidl_typesupport_c
+[ 64%] Built target robot_base__rosidl_typesupport_fastrtps_c
+[ 74%] Built target robot_base__rosidl_typesupport_cpp
+[ 74%] Built target robot_base
+[ 76%] Built target robot_base__py
+[ 84%] Built target robot_base__rosidl_generator_py
+[ 89%] Built target robot_base__rosidl_typesupport_c__pyext
+[ 94%] Built target robot_base__rosidl_typesupport_introspection_c__pyext
+[100%] Built target robot_base__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing robot_base.egg-info/PKG-INFO
+writing dependency_links to robot_base.egg-info/dependency_links.txt
+writing top-level names to robot_base.egg-info/top_level.txt
+reading manifest file 'robot_base.egg-info/SOURCES.txt'
+writing manifest file 'robot_base.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_robot_base_egg

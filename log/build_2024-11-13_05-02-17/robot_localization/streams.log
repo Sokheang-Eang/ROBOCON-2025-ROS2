@@ -1,0 +1,24 @@
+[0.052s] Invoking command in '/home/npicbot/robocon_ws/build/robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/npicbot/robocon_ws/build/robot_localization -- -j12 -l12
+[0.173s] [ 50%] Built target odometry_robot_ii
+[0.180s] [100%] Built target odometry_robot_i
+[0.239s] Invoked command in '/home/npicbot/robocon_ws/build/robot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/npicbot/robocon_ws/build/robot_localization -- -j12 -l12
+[0.269s] Invoking command in '/home/npicbot/robocon_ws/build/robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/npicbot/robocon_ws/build/robot_localization
+[0.285s] -- Install configuration: ""
+[0.287s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/lib/robot_localization/odometry_robot_i
+[0.287s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/lib/robot_localization/odometry_robot_ii
+[0.288s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/share/ament_index/resource_index/package_run_dependencies/robot_localization
+[0.288s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/share/ament_index/resource_index/parent_prefix_path/robot_localization
+[0.288s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/environment/ament_prefix_path.sh
+[0.288s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/environment/ament_prefix_path.dsv
+[0.289s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/environment/path.sh
+[0.289s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/environment/path.dsv
+[0.290s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/local_setup.bash
+[0.290s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/local_setup.sh
+[0.290s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/local_setup.zsh
+[0.290s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/local_setup.dsv
+[0.290s] -- Installing: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/package.dsv
+[0.291s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/share/ament_index/resource_index/packages/robot_localization
+[0.291s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/cmake/robot_localizationConfig.cmake
+[0.291s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/cmake/robot_localizationConfig-version.cmake
+[0.291s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/package.xml
+[0.297s] Invoked command in '/home/npicbot/robocon_ws/build/robot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/npicbot/robocon_ws/build/robot_localization

@@ -1,0 +1,7 @@
+[0.029s] Invoking command in '/home/npicbot/robocon_ws/build/robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/npicbot/robocon_ws/build/robot_localization -- -j12 -l12
+[0.096s] [ 50%] [32mBuilding CXX object CMakeFiles/odometry_robot_i.dir/src/odometry_publisher_i.cpp.o[0m
+[0.096s] [ 50%] [32mBuilding CXX object CMakeFiles/odometry_robot_ii.dir/src/odometry_publisher_ii.cpp.o[0m
+[15.686s] [ 75%] [32m[1mLinking CXX executable odometry_robot_i[0m
+[15.811s] [100%] [32m[1mLinking CXX executable odometry_robot_ii[0m
+[16.681s] [100%] Built target odometry_robot_i
+[16.682s] [100%] Built target odometry_robot_ii

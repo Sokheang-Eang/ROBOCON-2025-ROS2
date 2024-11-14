@@ -1,0 +1,16 @@
+/home/npicbot/robocon_ws/install/robot_command/share/robot_command/launch/call_node_v1.launch.py
+/home/npicbot/robocon_ws/install/robot_command/share/ament_index/resource_index/package_run_dependencies/robot_command
+/home/npicbot/robocon_ws/install/robot_command/share/ament_index/resource_index/parent_prefix_path/robot_command
+/home/npicbot/robocon_ws/install/robot_command/share/robot_command/environment/ament_prefix_path.sh
+/home/npicbot/robocon_ws/install/robot_command/share/robot_command/environment/ament_prefix_path.dsv
+/home/npicbot/robocon_ws/install/robot_command/share/robot_command/environment/path.sh
+/home/npicbot/robocon_ws/install/robot_command/share/robot_command/environment/path.dsv
+/home/npicbot/robocon_ws/install/robot_command/share/robot_command/local_setup.bash
+/home/npicbot/robocon_ws/install/robot_command/share/robot_command/local_setup.sh
+/home/npicbot/robocon_ws/install/robot_command/share/robot_command/local_setup.zsh
+/home/npicbot/robocon_ws/install/robot_command/share/robot_command/local_setup.dsv
+/home/npicbot/robocon_ws/install/robot_command/share/robot_command/package.dsv
+/home/npicbot/robocon_ws/install/robot_command/share/ament_index/resource_index/packages/robot_command
+/home/npicbot/robocon_ws/install/robot_command/share/robot_command/cmake/robot_commandConfig.cmake
+/home/npicbot/robocon_ws/install/robot_command/share/robot_command/cmake/robot_commandConfig-version.cmake
+/home/npicbot/robocon_ws/install/robot_command/share/robot_command/package.xml

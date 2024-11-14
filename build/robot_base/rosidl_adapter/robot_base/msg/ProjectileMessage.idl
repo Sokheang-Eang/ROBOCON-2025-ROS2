@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robot_base/msg/ProjectileMessage.msg
+// generated code does not contain a copyright notice
+
+
+module robot_base {
+  module msg {
+    @verbatim (language="comment", text=
+      "For Projectile Motion")
+    struct ProjectileMessage {
+      double goaldistance;
+
+      double goalangle;
+
+      double robotdistance;
+
+      double robotangle;
+    };
+  };
+};

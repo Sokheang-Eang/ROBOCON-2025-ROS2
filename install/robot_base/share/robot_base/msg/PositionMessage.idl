@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robot_base/msg/PositionMessage.msg
+// generated code does not contain a copyright notice
+
+
+module robot_base {
+  module msg {
+    @verbatim (language="comment", text=
+      "------ Robot -------#")
+    struct PositionMessage {
+      string header_odom;
+
+      double odom_x;
+
+      double odom_y;
+
+      double odom_theta;
+
+      @verbatim (language="comment", text=
+        "------ Robot -------#")
+      string header_robot;
+
+      double robot_x;
+
+      double robot_y;
+
+      double robot_theta;
+    };
+  };
+};

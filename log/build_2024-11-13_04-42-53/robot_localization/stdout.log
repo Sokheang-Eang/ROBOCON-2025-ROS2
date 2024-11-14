@@ -1,0 +1,6 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/odometry_robot_i.dir/src/odometry_publisher_i.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/odometry_robot_ii.dir/src/odometry_publisher_ii.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable odometry_robot_i[0m
+[100%] [32m[1mLinking CXX executable odometry_robot_ii[0m
+[100%] Built target odometry_robot_i
+[100%] Built target odometry_robot_ii

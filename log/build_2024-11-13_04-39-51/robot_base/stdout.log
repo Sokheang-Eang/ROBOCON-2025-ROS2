@@ -1,0 +1,183 @@
+[35m[1mConsolidate compiler generated dependencies of target robot_base__rosidl_generator_c[0m
+[  2%] Built target robot_base__cpp
+[ 12%] Built target robot_base__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target robot_base__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_base__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_base__rosidl_typesupport_fastrtps_cpp[0m
+[ 12%] Built target ament_cmake_python_copy_robot_base
+[35m[1mConsolidate compiler generated dependencies of target robot_base__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_base__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_base__rosidl_typesupport_fastrtps_c[0m
+[ 23%] Built target robot_base__rosidl_typesupport_cpp
+[ 33%] Built target robot_base__rosidl_typesupport_introspection_c
+[ 53%] Built target robot_base__rosidl_typesupport_fastrtps_cpp
+[ 53%] Built target robot_base__rosidl_typesupport_introspection_cpp
+[ 64%] Built target robot_base__rosidl_typesupport_c
+[ 74%] Built target robot_base__rosidl_typesupport_fastrtps_c
+[ 74%] Built target robot_base
+[ 76%] Built target robot_base__py
+[35m[1mConsolidate compiler generated dependencies of target robot_base__rosidl_generator_py[0m
+[ 84%] Built target robot_base__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target robot_base__rosidl_typesupport_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_base__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target robot_base__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 94%] Built target robot_base__rosidl_typesupport_introspection_c__pyext
+[100%] Built target robot_base__rosidl_typesupport_c__pyext
+[100%] Built target robot_base__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing robot_base.egg-info/PKG-INFO
+writing dependency_links to robot_base.egg-info/dependency_links.txt
+writing top-level names to robot_base.egg-info/top_level.txt
+reading manifest file 'robot_base.egg-info/SOURCES.txt'
+writing manifest file 'robot_base.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_robot_base_egg
+-- Install configuration: ""
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/ament_index/resource_index/rosidl_interfaces/robot_base
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__type_support.h
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__functions.h
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__functions.c
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__functions.h
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__functions.c
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__struct.h
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__struct.h
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__type_support.h
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/projectile_message.h
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/position_message.h
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/environment/library_path.sh
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/environment/library_path.dsv
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_generator_c.so
+-- Set runtime path of "/home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__type_support.c
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__rosidl_typesupport_introspection_c.h
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__rosidl_typesupport_introspection_c.h
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__type_support.c
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_typesupport_c.so
+-- Set runtime path of "/home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__builder.hpp
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__traits.hpp
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__traits.hpp
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__struct.hpp
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__struct.hpp
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__builder.hpp
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/projectile_message.hpp
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/position_message.hpp
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/dds_fastrtps
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__type_support.cpp
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__type_support.cpp
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/environment/pythonpath.sh
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/environment/pythonpath.dsv
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base-0.0.0-py3.10.egg-info
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/msg
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/msg/_position_message_s.c
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/msg/_position_message.py
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/msg/_projectile_message.py
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/msg/__init__.py
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/msg/_projectile_message_s.c
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/_robot_base_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/_robot_base_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/librobot_base__rosidl_generator_py.so
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/_robot_base_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/robot_base_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/__init__.py
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/robot_base_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/robot_base_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+Listing '/home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base'...
+Compiling '/home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/__init__.py'...
+Listing '/home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/msg'...
+Compiling '/home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/msg/__init__.py'...
+Compiling '/home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/msg/_position_message.py'...
+Compiling '/home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/msg/_projectile_message.py'...
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/robot_base_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+-- Set runtime path of "/home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/robot_base_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/robot_base_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Set runtime path of "/home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/robot_base_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/robot_base_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Set runtime path of "/home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/robot_base_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_generator_py.so
+-- Set runtime path of "/home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_generator_py.so" to ""
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/msg/PositionMessage.idl
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/msg/ProjectileMessage.idl
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/msg/PositionMessage.msg
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/msg/ProjectileMessage.msg
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/ament_index/resource_index/package_run_dependencies/robot_base
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/ament_index/resource_index/parent_prefix_path/robot_base
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/environment/ament_prefix_path.sh
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/environment/ament_prefix_path.dsv
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/environment/path.sh
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/environment/path.dsv
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/local_setup.bash
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/local_setup.sh
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/local_setup.zsh
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/local_setup.dsv
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/package.dsv
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/ament_index/resource_index/packages/robot_base
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/export_robot_base__rosidl_generator_cExport.cmake
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/export_robot_base__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/export_robot_base__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/export_robot_base__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/robot_base__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/robot_base__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/robot_base__rosidl_typesupport_cExport.cmake
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/robot_base__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/export_robot_base__rosidl_generator_cppExport.cmake
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/export_robot_base__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/export_robot_base__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/robot_base__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/robot_base__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/robot_base__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/robot_base__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/export_robot_base__rosidl_generator_pyExport.cmake
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/export_robot_base__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/robot_baseConfig.cmake
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/robot_baseConfig-version.cmake
+-- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/package.xml
