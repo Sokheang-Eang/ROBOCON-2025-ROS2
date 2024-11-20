@@ -2,6 +2,7 @@
 /home/npicbot/robocon_ws/build/robot_localization/CMakeFiles/robot_localization_uninstall.dir
 /home/npicbot/robocon_ws/build/robot_localization/CMakeFiles/odometry_robot_i.dir
 /home/npicbot/robocon_ws/build/robot_localization/CMakeFiles/odometry_robot_ii.dir
+/home/npicbot/robocon_ws/build/robot_localization/CMakeFiles/odometry_pub_goal.dir
 /home/npicbot/robocon_ws/build/robot_localization/CMakeFiles/test.dir
 /home/npicbot/robocon_ws/build/robot_localization/CMakeFiles/edit_cache.dir
 /home/npicbot/robocon_ws/build/robot_localization/CMakeFiles/rebuild_cache.dir

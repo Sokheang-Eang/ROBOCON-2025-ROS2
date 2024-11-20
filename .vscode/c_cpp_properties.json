@@ -1,23 +1,24 @@
 {
-  "configurations": [
-    {
-      "browse": {
-        "databaseFilename": "${default}",
-        "limitSymbolsToIncludedHeaders": false
-      },
-      "includePath": [
-        "/opt/ros/humble/include/**",
-        "/home/npicbot/robocon_ws/src/robot_command/include/**",
-        "/home/npicbot/robocon_ws/src/robot_intelligent/include/**",
-        "/home/npicbot/robocon_ws/src/robot_localization/include/**",
-        "/usr/include/**"
-      ],
-      "name": "ROS",
-      "intelliSenseMode": "gcc-arm64",
-      "compilerPath": "/usr/bin/gcc",
-      "cStandard": "gnu11",
-      "cppStandard": "c++14"
-    }
-  ],
-  "version": 4
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/opt/ros/humble/include/**",
+                "/home/npicbot/robocon_ws/src/robot_command/include/**",
+                "/home/npicbot/robocon_ws/src/robot_intelligent/include/**",
+                "/home/npicbot/robocon_ws/src/robot_localization/include/**",
+                "/usr/include/**",
+                "${workspaceFolder}/install/robot_base/include/robot_base"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-arm64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
 }

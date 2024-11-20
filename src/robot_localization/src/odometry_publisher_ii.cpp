@@ -9,20 +9,20 @@
 class OdometryPublisher : public rclcpp::Node
 {
 public:
-    OdometryPublisher() : Node("odom_robot_ii")
+    OdometryPublisher() : Node("odom_R2")
     {
         RCLCPP_INFO(this->get_logger(), "Node Started");
         // Initialize last_time_ to current ROS 2 time
         last_time_ = this->now();
 
         // Publisher for odometry messages
-        odom_pub_ = this->create_publisher<nav_msgs::msg::Odometry>("/odom/robot_ii", 10);
+        odom_pub_ = this->create_publisher<nav_msgs::msg::Odometry>("/odom/R2", 10);
         // Read robot pose from sensor
         odom_sub_ = this->create_subscription<geometry_msgs::msg::Pose2D>("position_robot/pos", 10, std::bind(&OdometryPublisher::pose_callback, this, std::placeholders::_1));
         // Transform broadcaster
         tf_broadcaster_ = std::make_shared<tf2_ros::TransformBroadcaster>(this);
         // Timer for periodic publishing
-        timer_ = this->create_wall_timer(std::chrono::milliseconds(50), std::bind(&OdometryPublisher::publish, this));
+        timer_ = this->create_wall_timer(std::chrono::milliseconds(20), std::bind(&OdometryPublisher::publish, this));
         // Initialize variables
         last_x = 0.00, last_y = 0.00, last_theta = 0.00;
     }
@@ -35,7 +35,7 @@ private:
         current_y = msg->y;
         current_theta = msg->theta;
         // Data Logging
-        // RCLCPP_INFO(this->get_logger(), "robot_ii - x: %.2f, y: %.2f, theta: %.2f", current_x, current_y, current_theta);
+        // RCLCPP_INFO(this->get_logger(), "R2 - x: %.2f, y: %.2f, theta: %.2f", current_x, current_y, current_theta);
     }
     void publish()
     {
@@ -57,7 +57,7 @@ private:
         geometry_msgs::msg::TransformStamped odom_trans;
         odom_trans.header.stamp = current_time;
         odom_trans.header.frame_id = "odom";
-        odom_trans.child_frame_id = "robot_ii";
+        odom_trans.child_frame_id = "R2";
         odom_trans.transform.translation.x = current_x;
         odom_trans.transform.translation.y = current_y;
         odom_trans.transform.translation.z = 0.0;
@@ -73,7 +73,7 @@ private:
         nav_msgs::msg::Odometry odom;
         odom.header.stamp = current_time;
         odom.header.frame_id = "odom";
-        odom.child_frame_id = "robot_ii";
+        odom.child_frame_id = "R2";
         odom.pose.pose.position.x = current_x;
         odom.pose.pose.position.y = current_y;
         odom.pose.pose.position.z = 0.0;

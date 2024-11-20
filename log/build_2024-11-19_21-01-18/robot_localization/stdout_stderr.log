@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target odometry_robot_i[0m
+[ 33%] Built target odometry_robot_ii
+[ 66%] Built target odometry_pub_goal
+[ 83%] [32mBuilding CXX object CMakeFiles/odometry_robot_i.dir/src/odometry_publisher_i.cpp.o[0m
+[01m[K/home/npicbot/robocon_ws/src/robot_localization/src/odometry_publisher_i.cpp:[m[K In member function ‘[01m[Kvoid OdometryPublisher::publish()[m[K’:
+[01m[K/home/npicbot/robocon_ws/src/robot_localization/src/odometry_publisher_i.cpp:50:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdelta_theta[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   50 |         double [01;35m[Kdelta_theta[m[K = current_theta - last_theta;
+      |                [01;35m[K^~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable odometry_robot_i[0m
+[100%] Built target odometry_robot_i
+-- Install configuration: ""
+-- Installing: /home/npicbot/robocon_ws/install/robot_localization/lib/robot_localization/odometry_robot_i
+-- Set runtime path of "/home/npicbot/robocon_ws/install/robot_localization/lib/robot_localization/odometry_robot_i" to ""
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/lib/robot_localization/odometry_robot_ii
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/lib/robot_localization/odometry_pub_goal
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/share/ament_index/resource_index/package_run_dependencies/robot_localization
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/share/ament_index/resource_index/parent_prefix_path/robot_localization
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/environment/ament_prefix_path.sh
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/environment/path.sh
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/environment/path.dsv
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/local_setup.bash
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/local_setup.sh
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/local_setup.zsh
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/local_setup.dsv
+-- Installing: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/package.dsv
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/share/ament_index/resource_index/packages/robot_localization
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/cmake/robot_localizationConfig.cmake
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/cmake/robot_localizationConfig-version.cmake
+-- Up-to-date: /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/package.xml

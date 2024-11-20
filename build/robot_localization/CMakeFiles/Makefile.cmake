@@ -880,4 +880,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/robot_localization_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/odometry_robot_i.dir/DependInfo.cmake"
   "CMakeFiles/odometry_robot_ii.dir/DependInfo.cmake"
+  "CMakeFiles/odometry_pub_goal.dir/DependInfo.cmake"
   )

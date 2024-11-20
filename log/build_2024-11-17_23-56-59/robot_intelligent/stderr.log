@@ -1,0 +1,88 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/npicbot/robocon_ws/src/robot_intelligent/src/robot_tracking.cpp:1[m[K:
+[01m[K/home/npicbot/robocon_ws/src/robot_intelligent/src/robot_tracking.cpp:[m[K In member function ‘[01m[Kvoid RobotTracking::computeTracking()[m[K’:
+[01m[K/home/npicbot/robocon_ws/src/robot_intelligent/src/robot_tracking.cpp:84:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass RobotTracking[m[K’ has no member named ‘[01m[Kget_loggeer[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+   84 |         RCLCPP_INFO(this->[01;31m[Kget_loggeer[m[K(), "robot -> Distance = %.2f, Angle = %.2f", distance, angle2target);
+      |                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/npicbot/robocon_ws/src/robot_intelligent/src/robot_tracking.cpp:84:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass RobotTracking[m[K’ has no member named ‘[01m[Kget_loggeer[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[01m[K/home/npicbot/robocon_ws/src/robot_intelligent/src/robot_tracking.cpp:84:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   84 |         [01;31m[KRCLCPP_INFO[m[K(this->get_loggeer(), "robot -> Distance = %.2f, Angle = %.2f", distance, angle2target);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/npicbot/robocon_ws/src/robot_intelligent/src/robot_tracking.cpp:84:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   84 |         [01;31m[KRCLCPP_INFO[m[K(this->get_loggeer(), "robot -> Distance = %.2f, Angle = %.2f", distance, angle2target);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/npicbot/robocon_ws/src/robot_intelligent/src/robot_tracking.cpp:84:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   84 |         [01;31m[KRCLCPP_INFO[m[K(this->get_loggeer(), "robot -> Distance = %.2f, Angle = %.2f", distance, angle2target);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/npicbot/robocon_ws/src/robot_intelligent/src/robot_tracking.cpp:1[m[K:
+[01m[K/home/npicbot/robocon_ws/src/robot_intelligent/src/robot_tracking.cpp:84:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass RobotTracking[m[K’ has no member named ‘[01m[Kget_loggeer[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+   84 |         RCLCPP_INFO(this->[01;31m[Kget_loggeer[m[K(), "robot -> Distance = %.2f, Angle = %.2f", distance, angle2target);
+      |                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/npicbot/robocon_ws/src/robot_intelligent/src/robot_tracking.cpp:84:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass RobotTracking[m[K’ has no member named ‘[01m[Kget_loggeer[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+   84 |         RCLCPP_INFO(this->[01;31m[Kget_loggeer[m[K(), "robot -> Distance = %.2f, Angle = %.2f", distance, angle2target);
+      |                           [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/npicbot/robocon_ws/src/robot_intelligent/src/robot_tracking.cpp:1[m[K:
+[01m[K/home/npicbot/robocon_ws/src/robot_intelligent/src/robot_tracking.cpp:86:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass RobotTracking[m[K’ has no member named ‘[01m[Kget_loegger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+   86 |         RCLCPP_WARN(this->[01;31m[Kget_loegger[m[K(), "goal -> Distance = %.2f, Angle = %.2f", distance_, angle2target_);
+      |                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/npicbot/robocon_ws/src/robot_intelligent/src/robot_tracking.cpp:86:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass RobotTracking[m[K’ has no member named ‘[01m[Kget_loegger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+[01m[K/home/npicbot/robocon_ws/src/robot_intelligent/src/robot_tracking.cpp:86:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   86 |         [01;31m[KRCLCPP_WARN[m[K(this->get_loegger(), "goal -> Distance = %.2f, Angle = %.2f", distance_, angle2target_);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/npicbot/robocon_ws/src/robot_intelligent/src/robot_tracking.cpp:86:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   86 |         [01;31m[KRCLCPP_WARN[m[K(this->get_loegger(), "goal -> Distance = %.2f, Angle = %.2f", distance_, angle2target_);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/npicbot/robocon_ws/src/robot_intelligent/src/robot_tracking.cpp:86:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   86 |         [01;31m[KRCLCPP_WARN[m[K(this->get_loegger(), "goal -> Distance = %.2f, Angle = %.2f", distance_, angle2target_);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/npicbot/robocon_ws/src/robot_intelligent/src/robot_tracking.cpp:1[m[K:
+[01m[K/home/npicbot/robocon_ws/src/robot_intelligent/src/robot_tracking.cpp:86:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass RobotTracking[m[K’ has no member named ‘[01m[Kget_loegger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+   86 |         RCLCPP_WARN(this->[01;31m[Kget_loegger[m[K(), "goal -> Distance = %.2f, Angle = %.2f", distance_, angle2target_);
+      |                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/npicbot/robocon_ws/src/robot_intelligent/src/robot_tracking.cpp:86:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass RobotTracking[m[K’ has no member named ‘[01m[Kget_loegger[m[K’; did you mean ‘[01m[Kget_logger[m[K’?
+   86 |         RCLCPP_WARN(this->[01;31m[Kget_loegger[m[K(), "goal -> Distance = %.2f, Angle = %.2f", distance_, angle2target_);
+      |                           [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/robot_tracking.dir/build.make:76: CMakeFiles/robot_tracking.dir/src/robot_tracking.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/robot_tracking.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

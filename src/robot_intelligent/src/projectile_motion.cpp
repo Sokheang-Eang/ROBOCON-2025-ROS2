@@ -32,19 +32,18 @@ private:
         ball_velocity = std::sqrt((gravity * pow(robot_dist, 2)) / (robot_dist - (robot_h - gun_h)));
         // Calculate Velocity of the ball to goal
         ball_velocity_ = std::sqrt((gravity * pow(goal_dist, 2)) / (goal_dist - (goal_h - gun_h)));
-        // Debug
-        RCLCPP_INFO(this->get_logger(), "Robot -> Vo = %.2f  m/s", ball_velocity);
-        RCLCPP_WARN(this->get_logger(), "Goal -> Vo = %.2f m/s", ball_velocity_);
+        // RCLCPP_INFO(this->get_logger(), "Robot -> Vo = %.2f  m/s", ball_velocity);
+        // RCLCPP_WARN(this->get_logger(), "Goal -> Vo = %.2f m/s", ball_velocity_);
     }
 
     /*------- Globle Variable -------*/
     double robot_dist, goal_dist, robot_angle, goal_angle;
-    double gun_h = 0.2;    // High of Gun
-    double robot_h = 0.2;  // High of Robot
-    double goal_h = 2.43;  // High of Goal = 2.43 m
-    double gravity = 9.8;  // gravity = 9.8 m/s^2
-    double ball_velocity;  // shooting to robot
-    double ball_velocity_; // shooting to goal
+    double gun_h = 0.2;         // High of Gun
+    double robot_h = 0.2;       // High of Robot
+    double goal_h = 2.43;       // High of Goal = 2.43 m
+    double gravity = 9.807;     // gravity = 9.8 m/s^2
+    double ball_velocity;       // shooting to robot
+    double ball_velocity_;      // shooting to goal
 
     rclcpp::Subscription<robot_base::msg::ProjectileMessage>::SharedPtr shooting_data;
     rclcpp::TimerBase::SharedPtr timer_;

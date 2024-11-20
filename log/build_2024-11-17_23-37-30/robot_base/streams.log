@@ -1,0 +1,161 @@
+[0.059s] Invoking command in '/home/npicbot/robocon_ws/build/robot_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/npicbot/robocon_ws/build/robot_base -- -j12 -l12
+[0.162s] [ 10%] Built target robot_base__rosidl_generator_c
+[0.166s] [ 12%] Built target robot_base__cpp
+[0.214s] [ 12%] Built target ament_cmake_python_copy_robot_base
+[0.229s] [ 23%] Built target robot_base__rosidl_typesupport_c
+[0.245s] [ 33%] Built target robot_base__rosidl_typesupport_introspection_c
+[0.249s] [ 43%] Built target robot_base__rosidl_typesupport_fastrtps_cpp
+[0.258s] [ 53%] Built target robot_base__rosidl_typesupport_cpp
+[0.258s] [ 69%] Built target robot_base__rosidl_typesupport_fastrtps_c
+[0.259s] [ 74%] Built target robot_base__rosidl_typesupport_introspection_cpp
+[0.342s] [ 74%] Built target robot_base
+[0.344s] [ 76%] Built target robot_base__py
+[0.381s] [ 84%] Built target robot_base__rosidl_generator_py
+[0.423s] [ 89%] Built target robot_base__rosidl_typesupport_fastrtps_c__pyext
+[0.437s] [ 94%] Built target robot_base__rosidl_typesupport_introspection_c__pyext
+[0.448s] [100%] Built target robot_base__rosidl_typesupport_c__pyext
+[0.777s] running egg_info
+[0.779s] writing robot_base.egg-info/PKG-INFO
+[3.358s] writing dependency_links to robot_base.egg-info/dependency_links.txt
+[3.358s] writing top-level names to robot_base.egg-info/top_level.txt
+[3.364s] reading manifest file 'robot_base.egg-info/SOURCES.txt'
+[3.365s] writing manifest file 'robot_base.egg-info/SOURCES.txt'
+[3.442s] [100%] Built target ament_cmake_python_build_robot_base_egg
+[3.466s] Invoked command in '/home/npicbot/robocon_ws/build/robot_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/npicbot/robocon_ws/build/robot_base -- -j12 -l12
+[3.624s] Invoking command in '/home/npicbot/robocon_ws/build/robot_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/npicbot/robocon_ws/build/robot_base
+[3.643s] -- Install configuration: ""
+[3.643s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/ament_index/resource_index/rosidl_interfaces/robot_base
+[3.643s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base
+[3.643s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg
+[3.643s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail
+[3.644s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__type_support.h
+[3.644s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__functions.h
+[3.644s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__functions.c
+[3.644s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__functions.h
+[3.644s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__functions.c
+[3.644s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__struct.h
+[3.644s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__struct.h
+[3.645s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__type_support.h
+[3.645s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/rosidl_generator_c__visibility_control.h
+[3.645s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/projectile_message.h
+[3.646s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/position_message.h
+[3.646s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/environment/library_path.sh
+[3.647s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/environment/library_path.dsv
+[3.647s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_generator_c.so
+[3.647s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base
+[3.647s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg
+[3.648s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail
+[3.648s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__rosidl_typesupport_fastrtps_c.h
+[3.648s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__rosidl_typesupport_fastrtps_c.h
+[3.649s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.649s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_typesupport_fastrtps_c.so
+[3.649s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base
+[3.650s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg
+[3.650s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail
+[3.650s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__type_support.c
+[3.650s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__rosidl_typesupport_introspection_c.h
+[3.650s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__rosidl_typesupport_introspection_c.h
+[3.650s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__type_support.c
+[3.650s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.651s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_typesupport_introspection_c.so
+[3.651s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_typesupport_c.so
+[3.651s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base
+[3.651s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg
+[3.651s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail
+[3.651s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__builder.hpp
+[3.651s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__traits.hpp
+[3.651s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__traits.hpp
+[3.652s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__struct.hpp
+[3.652s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__struct.hpp
+[3.652s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__builder.hpp
+[3.652s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/projectile_message.hpp
+[3.652s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/position_message.hpp
+[3.652s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base
+[3.652s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg
+[3.653s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail
+[3.653s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__rosidl_typesupport_fastrtps_cpp.hpp
+[3.653s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__rosidl_typesupport_fastrtps_cpp.hpp
+[3.653s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/dds_fastrtps
+[3.653s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.653s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_typesupport_fastrtps_cpp.so
+[3.653s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base
+[3.654s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg
+[3.654s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail
+[3.654s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__rosidl_typesupport_introspection_cpp.hpp
+[3.654s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__type_support.cpp
+[3.654s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/position_message__rosidl_typesupport_introspection_cpp.hpp
+[3.654s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/include/robot_base/robot_base/msg/detail/projectile_message__type_support.cpp
+[3.654s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_typesupport_introspection_cpp.so
+[3.655s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_typesupport_cpp.so
+[3.655s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/environment/pythonpath.sh
+[3.655s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/environment/pythonpath.dsv
+[3.655s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base-0.0.0-py3.10.egg-info
+[3.655s] -- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base-0.0.0-py3.10.egg-info/top_level.txt
+[3.656s] -- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base-0.0.0-py3.10.egg-info/PKG-INFO
+[3.656s] -- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.656s] -- Installing: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.656s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base
+[3.656s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/msg
+[3.656s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/msg/_position_message_s.c
+[3.656s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/msg/_position_message.py
+[3.657s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/msg/_projectile_message.py
+[3.657s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/msg/__init__.py
+[3.657s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/msg/_projectile_message_s.c
+[3.657s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/_robot_base_s.ep.rosidl_typesupport_c.c
+[3.657s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/_robot_base_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.657s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/librobot_base__rosidl_generator_py.so
+[3.658s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/_robot_base_s.ep.rosidl_typesupport_introspection_c.c
+[3.658s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/robot_base_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.658s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/__init__.py
+[3.658s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/robot_base_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.658s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/robot_base_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.721s] Listing '/home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base'...
+[3.722s] Listing '/home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/msg'...
+[3.732s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/robot_base_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.733s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/robot_base_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.733s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/local/lib/python3.10/dist-packages/robot_base/robot_base_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.733s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/lib/librobot_base__rosidl_generator_py.so
+[3.734s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/msg/PositionMessage.idl
+[3.734s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/msg/ProjectileMessage.idl
+[3.734s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/msg/PositionMessage.msg
+[3.734s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/msg/ProjectileMessage.msg
+[3.735s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/ament_index/resource_index/package_run_dependencies/robot_base
+[3.735s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/ament_index/resource_index/parent_prefix_path/robot_base
+[3.735s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/environment/ament_prefix_path.sh
+[3.736s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/environment/ament_prefix_path.dsv
+[3.736s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/environment/path.sh
+[3.736s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/environment/path.dsv
+[3.736s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/local_setup.bash
+[3.736s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/local_setup.sh
+[3.736s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/local_setup.zsh
+[3.737s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/local_setup.dsv
+[3.737s] -- Installing: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/package.dsv
+[3.737s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/ament_index/resource_index/packages/robot_base
+[3.738s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/export_robot_base__rosidl_generator_cExport.cmake
+[3.738s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/export_robot_base__rosidl_generator_cExport-noconfig.cmake
+[3.738s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/export_robot_base__rosidl_typesupport_fastrtps_cExport.cmake
+[3.739s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/export_robot_base__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.739s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/robot_base__rosidl_typesupport_introspection_cExport.cmake
+[3.739s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/robot_base__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.739s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/robot_base__rosidl_typesupport_cExport.cmake
+[3.739s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/robot_base__rosidl_typesupport_cExport-noconfig.cmake
+[3.740s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/export_robot_base__rosidl_generator_cppExport.cmake
+[3.740s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/export_robot_base__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.740s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/export_robot_base__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.740s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/robot_base__rosidl_typesupport_introspection_cppExport.cmake
+[3.740s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/robot_base__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.740s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/robot_base__rosidl_typesupport_cppExport.cmake
+[3.740s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/robot_base__rosidl_typesupport_cppExport-noconfig.cmake
+[3.741s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/export_robot_base__rosidl_generator_pyExport.cmake
+[3.741s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/export_robot_base__rosidl_generator_pyExport-noconfig.cmake
+[3.741s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/rosidl_cmake-extras.cmake
+[3.741s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.741s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/ament_cmake_export_libraries-extras.cmake
+[3.742s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/ament_cmake_export_targets-extras.cmake
+[3.742s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.742s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.742s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.742s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/robot_baseConfig.cmake
+[3.742s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/cmake/robot_baseConfig-version.cmake
+[3.743s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_base/share/robot_base/package.xml
+[3.746s] Invoked command in '/home/npicbot/robocon_ws/build/robot_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/npicbot/robocon_ws/build/robot_base

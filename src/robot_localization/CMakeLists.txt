@@ -16,13 +16,16 @@ find_package(rclcpp REQUIRED)
 
 add_executable(odometry_robot_i src/odometry_publisher_i.cpp)
 add_executable(odometry_robot_ii src/odometry_publisher_ii.cpp)
+add_executable(odometry_pub_goal src/odometry_pub_goal.cpp)
 
 ament_target_dependencies(odometry_robot_i rclcpp geometry_msgs nav_msgs tf2 tf2_ros tf2_geometry_msgs)
 ament_target_dependencies(odometry_robot_ii rclcpp geometry_msgs nav_msgs tf2 tf2_ros tf2_geometry_msgs)
+ament_target_dependencies(odometry_pub_goal rclcpp geometry_msgs nav_msgs tf2 tf2_ros tf2_geometry_msgs)
 
 install(TARGETS
   odometry_robot_i
   odometry_robot_ii
+  odometry_pub_goal
   DESTINATION lib/${PROJECT_NAME})
 
 

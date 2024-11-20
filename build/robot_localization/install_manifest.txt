@@ -1,5 +1,6 @@
 /home/npicbot/robocon_ws/install/robot_localization/lib/robot_localization/odometry_robot_i
 /home/npicbot/robocon_ws/install/robot_localization/lib/robot_localization/odometry_robot_ii
+/home/npicbot/robocon_ws/install/robot_localization/lib/robot_localization/odometry_pub_goal
 /home/npicbot/robocon_ws/install/robot_localization/share/ament_index/resource_index/package_run_dependencies/robot_localization
 /home/npicbot/robocon_ws/install/robot_localization/share/ament_index/resource_index/parent_prefix_path/robot_localization
 /home/npicbot/robocon_ws/install/robot_localization/share/robot_localization/environment/ament_prefix_path.sh

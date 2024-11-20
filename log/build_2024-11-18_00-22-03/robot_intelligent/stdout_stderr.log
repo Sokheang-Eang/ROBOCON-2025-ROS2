@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target robot_tracking[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/shooting.dir/src/projectile_motion.cpp.o[0m
+[ 75%] Built target robot_tracking
+[100%] [32m[1mLinking CXX executable shooting[0m
+[100%] Built target shooting

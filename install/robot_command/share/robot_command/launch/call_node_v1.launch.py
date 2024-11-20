@@ -13,6 +13,11 @@ def generate_launch_description():
         executable = 'odometry_robot_ii',
         output = 'screen' 
     )
+    goal = Node(
+        package = 'robot_localization',
+        executable = 'odometry_pub_goal',
+        output = 'screen' 
+    )
     robot_tracking = Node(
         package = 'robot_intelligent',
         executable = 'robot_tracking',
@@ -36,6 +41,7 @@ def generate_launch_description():
     ld.add_action(odom_ii)
     ld.add_action(robot_tracking)
     ld.add_action(shooting_ball)
+    ld.add_action(goal)
     ld.add_action(micro_ros)
     
     return ld

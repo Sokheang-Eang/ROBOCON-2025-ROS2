@@ -223,6 +223,43 @@ odometry_robot_ii/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/odometry_robot_ii.dir/build.make CMakeFiles/odometry_robot_ii.dir/build
 .PHONY : odometry_robot_ii/fast
 
+#=============================================================================
+# Target rules for targets named odometry_pub_goal
+
+# Build rule for target.
+odometry_pub_goal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 odometry_pub_goal
+.PHONY : odometry_pub_goal
+
+# fast build rule for target.
+odometry_pub_goal/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odometry_pub_goal.dir/build.make CMakeFiles/odometry_pub_goal.dir/build
+.PHONY : odometry_pub_goal/fast
+
+src/odometry_pub_goal.o: src/odometry_pub_goal.cpp.o
+.PHONY : src/odometry_pub_goal.o
+
+# target to build an object file
+src/odometry_pub_goal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odometry_pub_goal.dir/build.make CMakeFiles/odometry_pub_goal.dir/src/odometry_pub_goal.cpp.o
+.PHONY : src/odometry_pub_goal.cpp.o
+
+src/odometry_pub_goal.i: src/odometry_pub_goal.cpp.i
+.PHONY : src/odometry_pub_goal.i
+
+# target to preprocess a source file
+src/odometry_pub_goal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odometry_pub_goal.dir/build.make CMakeFiles/odometry_pub_goal.dir/src/odometry_pub_goal.cpp.i
+.PHONY : src/odometry_pub_goal.cpp.i
+
+src/odometry_pub_goal.s: src/odometry_pub_goal.cpp.s
+.PHONY : src/odometry_pub_goal.s
+
+# target to generate assembly for a file
+src/odometry_pub_goal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odometry_pub_goal.dir/build.make CMakeFiles/odometry_pub_goal.dir/src/odometry_pub_goal.cpp.s
+.PHONY : src/odometry_pub_goal.cpp.s
+
 src/odometry_publisher_i.o: src/odometry_publisher_i.cpp.o
 .PHONY : src/odometry_publisher_i.o
 
@@ -286,8 +323,12 @@ help:
 	@echo "... test"
 	@echo "... robot_localization_uninstall"
 	@echo "... uninstall"
+	@echo "... odometry_pub_goal"
 	@echo "... odometry_robot_i"
 	@echo "... odometry_robot_ii"
+	@echo "... src/odometry_pub_goal.o"
+	@echo "... src/odometry_pub_goal.i"
+	@echo "... src/odometry_pub_goal.s"
 	@echo "... src/odometry_publisher_i.o"
 	@echo "... src/odometry_publisher_i.i"
 	@echo "... src/odometry_publisher_i.s"

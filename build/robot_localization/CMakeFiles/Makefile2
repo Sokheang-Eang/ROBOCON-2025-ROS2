@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = /home/npicbot/robocon_ws/build/robot_localization
 # The main recursive "all" target.
 all: CMakeFiles/odometry_robot_i.dir/all
 all: CMakeFiles/odometry_robot_ii.dir/all
+all: CMakeFiles/odometry_pub_goal.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +77,7 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/robot_localization_uninstall.dir/clean
 clean: CMakeFiles/odometry_robot_i.dir/clean
 clean: CMakeFiles/odometry_robot_ii.dir/clean
+clean: CMakeFiles/odometry_pub_goal.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -137,7 +139,7 @@ CMakeFiles/robot_localization_uninstall.dir/clean:
 CMakeFiles/odometry_robot_i.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/odometry_robot_i.dir/build.make CMakeFiles/odometry_robot_i.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/odometry_robot_i.dir/build.make CMakeFiles/odometry_robot_i.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/npicbot/robocon_ws/build/robot_localization/CMakeFiles --progress-num=1,2 "Built target odometry_robot_i"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/npicbot/robocon_ws/build/robot_localization/CMakeFiles --progress-num=3,4 "Built target odometry_robot_i"
 .PHONY : CMakeFiles/odometry_robot_i.dir/all
 
 # Build rule for subdir invocation for target.
@@ -163,7 +165,7 @@ CMakeFiles/odometry_robot_i.dir/clean:
 CMakeFiles/odometry_robot_ii.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/odometry_robot_ii.dir/build.make CMakeFiles/odometry_robot_ii.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/odometry_robot_ii.dir/build.make CMakeFiles/odometry_robot_ii.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/npicbot/robocon_ws/build/robot_localization/CMakeFiles --progress-num=3,4 "Built target odometry_robot_ii"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/npicbot/robocon_ws/build/robot_localization/CMakeFiles --progress-num=5,6 "Built target odometry_robot_ii"
 .PHONY : CMakeFiles/odometry_robot_ii.dir/all
 
 # Build rule for subdir invocation for target.
@@ -181,6 +183,32 @@ odometry_robot_ii: CMakeFiles/odometry_robot_ii.dir/rule
 CMakeFiles/odometry_robot_ii.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/odometry_robot_ii.dir/build.make CMakeFiles/odometry_robot_ii.dir/clean
 .PHONY : CMakeFiles/odometry_robot_ii.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/odometry_pub_goal.dir
+
+# All Build rule for target.
+CMakeFiles/odometry_pub_goal.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odometry_pub_goal.dir/build.make CMakeFiles/odometry_pub_goal.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odometry_pub_goal.dir/build.make CMakeFiles/odometry_pub_goal.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/npicbot/robocon_ws/build/robot_localization/CMakeFiles --progress-num=1,2 "Built target odometry_pub_goal"
+.PHONY : CMakeFiles/odometry_pub_goal.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/odometry_pub_goal.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/npicbot/robocon_ws/build/robot_localization/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/odometry_pub_goal.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/npicbot/robocon_ws/build/robot_localization/CMakeFiles 0
+.PHONY : CMakeFiles/odometry_pub_goal.dir/rule
+
+# Convenience name for target.
+odometry_pub_goal: CMakeFiles/odometry_pub_goal.dir/rule
+.PHONY : odometry_pub_goal
+
+# clean rule for target.
+CMakeFiles/odometry_pub_goal.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/odometry_pub_goal.dir/build.make CMakeFiles/odometry_pub_goal.dir/clean
+.PHONY : CMakeFiles/odometry_pub_goal.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

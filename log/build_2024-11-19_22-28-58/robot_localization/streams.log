@@ -1,0 +1,13 @@
+[0.054s] Invoking command in '/home/npicbot/robocon_ws/build/robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/npicbot/robocon_ws/build/robot_localization -- -j12 -l12
+[0.174s] [ 33%] Built target odometry_robot_ii
+[0.179s] [ 50%] [32mBuilding CXX object CMakeFiles/odometry_robot_i.dir/src/odometry_publisher_i.cpp.o[0m
+[0.181s] [ 83%] Built target odometry_pub_goal
+[4.742s] [01m[K/home/npicbot/robocon_ws/src/robot_localization/src/odometry_publisher_i.cpp:[m[K In member function ‘[01m[Kvoid OdometryPublisher::publish()[m[K’:
+[4.742s] [01m[K/home/npicbot/robocon_ws/src/robot_localization/src/odometry_publisher_i.cpp:55:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_[m[K’ was not declared in this scope; did you mean ‘[01m[Kvx_[m[K’?
+[4.742s]    55 |         double linear_x = [01;31m[Kx_[m[K*cos(current_theta) - vy_*sin(current_theta);
+[4.742s]       |                           [01;31m[K^~[m[K
+[4.742s]       |                           [32m[Kvx_[m[K
+[9.698s] gmake[2]: *** [CMakeFiles/odometry_robot_i.dir/build.make:76: CMakeFiles/odometry_robot_i.dir/src/odometry_publisher_i.cpp.o] Error 1
+[9.698s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/odometry_robot_i.dir/all] Error 2
+[9.699s] gmake: *** [Makefile:146: all] Error 2
+[9.705s] Invoked command in '/home/npicbot/robocon_ws/build/robot_localization' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/npicbot/robocon_ws/build/robot_localization -- -j12 -l12
