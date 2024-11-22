@@ -72,7 +72,6 @@ private:
         double distance = std::sqrt(pow(error_x, 2) + pow(error_y, 2));
         double angle = std::atan2(error_y, error_x);
         double angle2target = normalizeAngle(angle) * (180 / M_PI);
-
         /*--------- Goal Tracking ----------*/
         // Calculate errors in position goal
         double error_x_ = pos_x - goal_x;

@@ -1,5 +1,6 @@
 /home/npicbot/robocon_ws/build/robot_command/CMakeFiles/uninstall.dir
 /home/npicbot/robocon_ws/build/robot_command/CMakeFiles/robot_command_uninstall.dir
+/home/npicbot/robocon_ws/build/robot_command/CMakeFiles/ps2_controller.dir
 /home/npicbot/robocon_ws/build/robot_command/CMakeFiles/test.dir
 /home/npicbot/robocon_ws/build/robot_command/CMakeFiles/edit_cache.dir
 /home/npicbot/robocon_ws/build/robot_command/CMakeFiles/rebuild_cache.dir

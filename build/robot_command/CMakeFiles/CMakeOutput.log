@@ -435,3 +435,55 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/npicbot/robocon_ws/build/robot_command/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7c7cd/fast && gmake[1]: Entering directory '/home/npicbot/robocon_ws/build/robot_command/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_7c7cd.dir/build.make CMakeFiles/cmTC_7c7cd.dir/build
+gmake[2]: Entering directory '/home/npicbot/robocon_ws/build/robot_command/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7c7cd.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7c7cd.dir/CheckIncludeFile.c.o -c /home/npicbot/robocon_ws/build/robot_command/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7c7cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c7cd.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_7c7cd.dir/CheckIncludeFile.c.o -o cmTC_7c7cd 
+gmake[2]: Leaving directory '/home/npicbot/robocon_ws/build/robot_command/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/npicbot/robocon_ws/build/robot_command/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/npicbot/robocon_ws/build/robot_command/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_87958/fast && gmake[1]: Entering directory '/home/npicbot/robocon_ws/build/robot_command/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_87958.dir/build.make CMakeFiles/cmTC_87958.dir/build
+gmake[2]: Entering directory '/home/npicbot/robocon_ws/build/robot_command/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_87958.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_87958.dir/src.c.o -c /home/npicbot/robocon_ws/build/robot_command/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_87958
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87958.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_87958.dir/src.c.o -o cmTC_87958 
+gmake[2]: Leaving directory '/home/npicbot/robocon_ws/build/robot_command/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/npicbot/robocon_ws/build/robot_command/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

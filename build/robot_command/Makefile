@@ -197,6 +197,43 @@ robot_command_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_command_uninstall.dir/build.make CMakeFiles/robot_command_uninstall.dir/build
 .PHONY : robot_command_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named ps2_controller
+
+# Build rule for target.
+ps2_controller: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ps2_controller
+.PHONY : ps2_controller
+
+# fast build rule for target.
+ps2_controller/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps2_controller.dir/build.make CMakeFiles/ps2_controller.dir/build
+.PHONY : ps2_controller/fast
+
+src/read_controller.o: src/read_controller.cpp.o
+.PHONY : src/read_controller.o
+
+# target to build an object file
+src/read_controller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps2_controller.dir/build.make CMakeFiles/ps2_controller.dir/src/read_controller.cpp.o
+.PHONY : src/read_controller.cpp.o
+
+src/read_controller.i: src/read_controller.cpp.i
+.PHONY : src/read_controller.i
+
+# target to preprocess a source file
+src/read_controller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps2_controller.dir/build.make CMakeFiles/ps2_controller.dir/src/read_controller.cpp.i
+.PHONY : src/read_controller.cpp.i
+
+src/read_controller.s: src/read_controller.cpp.s
+.PHONY : src/read_controller.s
+
+# target to generate assembly for a file
+src/read_controller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps2_controller.dir/build.make CMakeFiles/ps2_controller.dir/src/read_controller.cpp.s
+.PHONY : src/read_controller.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... robot_command_uninstall"
 	@echo "... uninstall"
+	@echo "... ps2_controller"
+	@echo "... src/read_controller.o"
+	@echo "... src/read_controller.i"
+	@echo "... src/read_controller.s"
 .PHONY : help
 
 

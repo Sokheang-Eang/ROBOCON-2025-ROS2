@@ -18,6 +18,16 @@ def generate_launch_description():
         executable = 'odometry_pub_goal',
         output = 'screen' 
     )
+    joy = Node(
+        package = 'joy',
+        executable = 'joy_node',
+        output = 'screen' 
+    )
+    controller = Node(
+        package = 'robot_command',
+        executable = 'ps2_controller',
+        output = 'screen' 
+    )
     robot_tracking = Node(
         package = 'robot_intelligent',
         executable = 'robot_tracking',
@@ -26,6 +36,11 @@ def generate_launch_description():
     shooting_ball = Node(
         package = 'robot_intelligent',
         executable = 'shooting',
+        output = 'screen'
+    )
+    rviz = Node(
+        package = 'rviz2',
+        executable = 'rviz2',
         output = 'screen'
     )
     micro_ros = Node(
@@ -43,5 +58,8 @@ def generate_launch_description():
     ld.add_action(shooting_ball)
     ld.add_action(goal)
     ld.add_action(micro_ros)
+    ld.add_action(joy)
+    ld.add_action(controller)
+    ld.add_action(rviz)
     
     return ld

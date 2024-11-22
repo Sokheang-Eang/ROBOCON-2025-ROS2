@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/npicbot/robocon_ws/build/robot_command
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all:
+all: CMakeFiles/ps2_controller.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -73,6 +73,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/robot_command_uninstall.dir/clean
+clean: CMakeFiles/ps2_controller.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -126,6 +127,32 @@ robot_command_uninstall: CMakeFiles/robot_command_uninstall.dir/rule
 CMakeFiles/robot_command_uninstall.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/robot_command_uninstall.dir/build.make CMakeFiles/robot_command_uninstall.dir/clean
 .PHONY : CMakeFiles/robot_command_uninstall.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ps2_controller.dir
+
+# All Build rule for target.
+CMakeFiles/ps2_controller.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps2_controller.dir/build.make CMakeFiles/ps2_controller.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps2_controller.dir/build.make CMakeFiles/ps2_controller.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/npicbot/robocon_ws/build/robot_command/CMakeFiles --progress-num=1,2 "Built target ps2_controller"
+.PHONY : CMakeFiles/ps2_controller.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ps2_controller.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/npicbot/robocon_ws/build/robot_command/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ps2_controller.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/npicbot/robocon_ws/build/robot_command/CMakeFiles 0
+.PHONY : CMakeFiles/ps2_controller.dir/rule
+
+# Convenience name for target.
+ps2_controller: CMakeFiles/ps2_controller.dir/rule
+.PHONY : ps2_controller
+
+# clean rule for target.
+CMakeFiles/ps2_controller.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ps2_controller.dir/build.make CMakeFiles/ps2_controller.dir/clean
+.PHONY : CMakeFiles/ps2_controller.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

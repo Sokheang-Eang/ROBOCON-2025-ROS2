@@ -1,0 +1,23 @@
+[0.036s] Invoking command in '/home/npicbot/robocon_ws/build/robot_command': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/npicbot/robocon_ws/build/robot_command -- -j12 -l12
+[0.095s] [35m[1mConsolidate compiler generated dependencies of target ps2_controller[0m
+[0.133s] [100%] Built target ps2_controller
+[0.160s] Invoked command in '/home/npicbot/robocon_ws/build/robot_command' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/npicbot/robocon_ws/build/robot_command -- -j12 -l12
+[0.209s] Invoking command in '/home/npicbot/robocon_ws/build/robot_command': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/npicbot/robocon_ws/build/robot_command
+[0.285s] -- Install configuration: ""
+[0.285s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_command/lib/robot_command/ps2_controller
+[0.286s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_command/share/ament_index/resource_index/package_run_dependencies/robot_command
+[0.288s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_command/share/ament_index/resource_index/parent_prefix_path/robot_command
+[0.288s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_command/share/robot_command/environment/ament_prefix_path.sh
+[0.289s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_command/share/robot_command/environment/ament_prefix_path.dsv
+[0.290s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_command/share/robot_command/environment/path.sh
+[0.299s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_command/share/robot_command/environment/path.dsv
+[0.299s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_command/share/robot_command/local_setup.bash
+[0.299s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_command/share/robot_command/local_setup.sh
+[0.299s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_command/share/robot_command/local_setup.zsh
+[0.300s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_command/share/robot_command/local_setup.dsv
+[0.300s] -- Installing: /home/npicbot/robocon_ws/install/robot_command/share/robot_command/package.dsv
+[0.300s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_command/share/ament_index/resource_index/packages/robot_command
+[0.300s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_command/share/robot_command/cmake/robot_commandConfig.cmake
+[0.300s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_command/share/robot_command/cmake/robot_commandConfig-version.cmake
+[0.300s] -- Up-to-date: /home/npicbot/robocon_ws/install/robot_command/share/robot_command/package.xml
+[0.300s] Invoked command in '/home/npicbot/robocon_ws/build/robot_command' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/npicbot/robocon_ws/build/robot_command
