@@ -20,7 +20,6 @@ public:
         shooting_data_ = this->create_publisher<robot_base::msg::ProjectileMessage>("/shooting_data_", 10);
         //------------------------------------
         timer_ = this->create_wall_timer(std::chrono::milliseconds(20), std::bind(&RobotTracking::computeTracking, this));
-
         /*--------- const goal point need to change --------------*/
         goal_x = 10.90, goal_y = -3.73;
         pos_x_ = 0.00;
